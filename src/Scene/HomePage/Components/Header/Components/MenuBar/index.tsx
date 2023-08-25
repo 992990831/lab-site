@@ -1,5 +1,6 @@
 import * as React from 'react';
 import './style.css';
+import { Link } from "gatsby";
 // import { Icon } from 'react-fa';
 // import { connect } from 'react-redux';
 // import RLForm from 'Components/RegisterLoginForm';
@@ -100,7 +101,8 @@ class MenuBar extends React.Component<MenuBarProps, MenuBarState> {
         <div className={'homeNav' + (this.state.isHandlerActive ? ' active' : '')} >
           <ul>
             <li className="moreOption">
-              <a href="javascript:void(0)">People</a>
+              {/* <a href="javascript:void(0)">People</a> */}
+              <Link to={"people"}>People</Link>
             </li>
             <li className="moreOption">
               <a href="javascript:void(0)">Research</a>
