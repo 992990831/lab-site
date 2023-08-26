@@ -45,3 +45,60 @@ a.card ul.cardFeat, div.card ul.cardFeat {
         height: 6vh;
     }
   }
+
+
+.singlePeople {
+  margin: 10px;
+  overflow: hidden;
+  background-color: white;
+  border-radius: 4px;
+}
+
+.singlePeople a {
+  padding: 15px;
+  flex-direction: row;
+  display: flex;
+
+  text-decoration: none;
+  color: #222222;
+    font-family: 微软雅黑, AvenirLTStd-light, AvenirLTStd, arial, 微软雅黑, AvenirLTStd, Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    text-align: justify;
+}
+
+.singlePeople .left {
+  background-color: white;
+  width: 120px;
+  overflow: hidden;
+  position: relative;
+  z-index: 1;
+}
+
+.singlePeople .left .img-box {
+  width: 100%;
+  height: 0;
+  padding-bottom: 130%;
+  overflow: hidden;
+  position: relative;
+  border-radius: 4px;
+}
+
+.singlePeople .left .img-box .img {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+}
+
+.singlePeople .left img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.singlePeople .right {
+  padding-left:15px;
+  width: 60%;
+  line-height: 20px;
+}
