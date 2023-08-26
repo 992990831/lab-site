@@ -44,11 +44,10 @@ const People = (data: any) => {
           <div className="cardAddress"><span className="icon-pointer" />
             Shanghai Xuhui District HuaShan Rd.
             </div>
-          {/* <ul className="cardFeat">
-            <li><span className="fa fa-moon-o" /> {this.props.data.beds}</li>
-            <li><span className="icon-drop" /> {this.props.data.toilets}</li>
-            <li><span className="icon-frame" /> {this.props.data.square} Sq Ft</li>
-          </ul> */}
+          <ul className="cardFeat">
+            <li><div className='cardFeat wechat'></div></li>
+            <li><div className='cardFeat email'></div></li>
+          </ul>
         </a>
       </div>
     )
