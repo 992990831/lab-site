@@ -1,10 +1,11 @@
 import * as React from 'react';
 import './style.css';
+import Header from './Components/Header';
 
 const PeopleList = () => {
     return(
         <>
-            Hello!
+           <Header></Header>
         </>
     )
 }

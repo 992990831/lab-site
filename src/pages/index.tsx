@@ -1,6 +1,7 @@
 import * as React from "react"
 import type { HeadFC, PageProps } from "gatsby"
 import HomePage from '../Scene/HomePage';
+import './bootstrap.css';
 
 const pageStyles = {
   color: "#232129",

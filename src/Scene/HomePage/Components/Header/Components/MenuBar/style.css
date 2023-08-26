@@ -169,3 +169,7 @@ a.homeNavHandler.active {
     display: table-cell !important;
   } */
 }
+
+.activeLink {
+  text-decoration: underline !important;
+}

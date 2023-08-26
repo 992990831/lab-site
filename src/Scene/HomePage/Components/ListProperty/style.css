@@ -14,3 +14,11 @@
   margin: 0 auto;
   padding:30px 50px 20px 50px;
 }
+
+/* PC显示时居中缩小 */
+@media screen and (min-width: 991px) {
+  .slide-center {
+    width: 70%;
+    margin: auto;
+  }
+}

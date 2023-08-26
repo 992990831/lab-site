@@ -16,13 +16,23 @@ import { Link } from "gatsby";
 //   isLogin: state.user.isLogin
 // });
 
+enum MenuItemType {
+  none,
+  people,
+  research,
+  news,
+  photos,
+  publication
+}
+
 interface MenuBarProps {
   //lang: SupportedLanguage;
   isPersist: boolean;
   isLogin: boolean;
+  //selectedMenuItem: MenuItemType;
 }
 
-interface MenuBarState {
+interface MenuBarState {  
   isHandlerActive: boolean;
   rlFormStatus?: 'login' | 'register'; 
   isLogin: boolean;
@@ -31,7 +41,7 @@ interface MenuBarState {
 class MenuBar extends React.Component<MenuBarProps, MenuBarState> {
   constructor(props: MenuBarProps) {
     super(props);
-    this.state = {
+    this.state = {      
       isHandlerActive: false,
       isLogin: props.isLogin
     };
@@ -102,7 +112,7 @@ class MenuBar extends React.Component<MenuBarProps, MenuBarState> {
           <ul>
             <li className="moreOption">
               {/* <a href="javascript:void(0)">People</a> */}
-              <Link to={"people"}>People</Link>
+              <Link to={"/people"} activeClassName="activeLink">People</Link>
             </li>
             <li className="moreOption">
               <a href="javascript:void(0)">Research</a>

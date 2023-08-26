@@ -38,7 +38,7 @@ class ListProperty extends React.Component<{}, {}> {
         <div className="row listPropertyContent">
           <h1 style={{textAlign:"center"}}>Meet The Team</h1>
         {/* https://www.npmjs.com/package/react-responsive-carousel */}
-        <Carousel showThumbs={false} interval={2000} infiniteLoop={true} autoPlay={true} showStatus={false}>
+        <Carousel showThumbs={false} interval={2000} infiniteLoop={true} autoPlay={true} showStatus={false} className='slide-center'>
                 <div>
                     {/* <div style={{backgroundImage:"url(https://images.squarespace-cdn.com/content/v1/5e729010626ebf110b75dfdf/3d4b28dd-e098-4526-ae40-a8de58b60060/KBBQ_labdinner2022.jpg)"}}></div> */}
                     <img src="https://images.squarespace-cdn.com/content/v1/5e729010626ebf110b75dfdf/3d4b28dd-e098-4526-ae40-a8de58b60060/KBBQ_labdinner2022.jpg" />
