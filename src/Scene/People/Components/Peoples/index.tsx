@@ -25,7 +25,6 @@ const peoples = [
 ];
 
 const People = (data: any) => {
-    console.log(data)
     return (
         //     <div className="singleHouse">
         //     <a href="#" className="card">

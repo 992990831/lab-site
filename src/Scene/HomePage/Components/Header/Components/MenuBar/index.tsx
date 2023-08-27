@@ -115,10 +115,10 @@ class MenuBar extends React.Component<MenuBarProps, MenuBarState> {
               <Link to={"/people"} activeClassName="activeLink">People</Link>
             </li>
             <li className="moreOption">
-              <a href="javascript:void(0)">Research</a>
+              <Link to={"/research"} activeClassName="activeLink">Research</Link>
             </li>
             <li className="moreOption">
-              <a href="javascript:void(0)">News</a>
+              <Link to={"/press"} activeClassName="activeLink">News</Link>
             </li>
             <li className="moreOption">
               <a href="javascript:void(0)">Photos</a>
