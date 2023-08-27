@@ -1,0 +1,34 @@
+@media screen and (min-width: 991px) {
+  .publication {
+    flex-direction: row-reverse;
+    display: flex;
+  }
+}
+
+@media screen and (min-width: 991px) {
+  .publication .left {
+    width: 45%;
+  }
+
+  .publication .right {
+    width: 55%;
+  }
+}
+
+.publication .left {
+  margin-left: 17px;
+  margin-right: 17px;
+}
+
+.publication .right {
+  margin-left: 17px;
+  padding-right: 10%;
+}
+
+.publication .right a {
+  color: #6577BB;
+  text-decoration: none;
+  cursor: pointer;
+  border: #6577BB 2px solid;
+  padding: 8px 15px;
+}

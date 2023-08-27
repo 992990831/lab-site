@@ -120,11 +120,12 @@ class MenuBar extends React.Component<MenuBarProps, MenuBarState> {
             <li className="moreOption">
               <Link to={"/press"} activeClassName="activeLink">News</Link>
             </li>
+           
             <li className="moreOption">
-              <a href="javascript:void(0)">Photos</a>
+              <Link to={"/publication"} activeClassName="activeLink">Publication</Link>
             </li>
             <li className="moreOption">
-              <a href="javascript:void(0)">Publication</a>
+              <a href="/contact">Contact</a>
             </li>
             {/* <li className="moreOption">
               <Link to="/search?type=sale">{'Buy'}</Link>

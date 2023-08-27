@@ -1,7 +1,11 @@
-参考项目:
+<!-- 参考项目:
 https://github.com/KAngel7/clone-reales-real-estate
 https://ciiic.sjtu.edu.cn/?list_8/
 https://cochranlab.stanford.edu/people
+
+静态图片处理
+https://zhuanlan.zhihu.com/p/434191824
+npm install gatsby-plugin-image gatsby-plugin-sharp gatsby-source-filesystem -->
 
 <p align="center">
   <a href="https://www.gatsbyjs.com/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter-ts">
