@@ -67,6 +67,12 @@ a.card ul.cardFeat, div.card ul.cardFeat {
     text-align: justify;
 }
 
+@media screen and (max-width: 767px) {
+  .singlePeople .big-profile-image {
+      display: block;
+  }
+}
+
 .singlePeople .left {
   background-color: white;
   width: 120px;
@@ -107,4 +113,10 @@ a.card ul.cardFeat, div.card ul.cardFeat {
   /* 120px为左侧头像宽度 */
   width: calc(100% - 120px);
   line-height: 20px;
+}
+
+@media screen and (max-width: 767px) {
+  .singlePeople .full-width {
+    width: calc(100% - 20px);
+  }
 }

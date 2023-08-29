@@ -694,7 +694,7 @@ const PeopleGallery = () => {
                 // 导师
                 <div className="col-xs-12 col-sm-12 col-md-4 col-lg-12">
                     <div className="singlePeople" style={{height:"auto"}}>
-                        <a href="#" className="Card">
+                        <a href="#" className="big-profile-image">
                             <div className="left tutor">
                                 <div className="img-box">
                                     <div className="img">
@@ -706,7 +706,7 @@ const PeopleGallery = () => {
                                     </div>
                                 </div>
                             </div>
-                            <div className="right">
+                            <div className="right full-width">
                                 <div className="name">
                                     <h2>李瑶</h2>
                                 </div>
