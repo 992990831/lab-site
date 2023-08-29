@@ -9,8 +9,8 @@ export default function BlogPostTemplate({
   return (
     <div>
       <div>
-        <h1>{frontmatter.title}</h1>
-        <h2>{frontmatter.date}</h2>
+        <h1>{frontmatter.name}</h1>
+        <h2>{frontmatter.degree}</h2>
         <div
           dangerouslySetInnerHTML={{ __html: html }}
         />
@@ -24,9 +24,14 @@ export const pageQuery = graphql`
     markdownRemark(id: { eq: $id }) {
       html
       frontmatter {
-        date(formatString: "MMMM DD, YYYY")
-        slug
-        title
+        id
+        name
+        email
+        domain
+        degree
+        profile
+        status
+        statusComment
       }
     }
   }

@@ -7,7 +7,6 @@ const PeopleList = () => {
     return(
         <>
            <Header></Header>
-           <h1>Hi There</h1>
            <PeopleGallery />
         </>
     )
