@@ -784,7 +784,7 @@ const getGraduated = () => {
                         <div className="desc">
                             <p>
                                 <span>
-                                    博士<br />基于自旋回波序列的大脑快速定量T2成像重建算法研究及临床应用；融合生物先验和多模态磁共振脑影像的脑疾病模型研究；
+                                    博士<br />自旋回波序列大脑快速定量T2成像重建算法及临床应用；融合生物先验和多模态磁共振脑影像的脑疾病模型；
                                     <div className='student'>
                                         <br /><span>邮箱地址：</span>mengzy0306@sjtu.edu.cn
                                         <br />就读时间：2016.09~2023.09
@@ -824,7 +824,7 @@ const getGraduated = () => {
                         <div className="desc">
                             <p>
                                 <span>
-                                    硕士<br />精神分裂症患者纵向脑结构改变，药物治疗对强迫症患者脑功能网络改变的影响，强迫症患者楔前叶分区功能连接改变的异常情况研究
+                                    硕士<br />精神分裂症患者纵向脑结构改变，药物治疗对强迫症患者脑功能影响，强迫症患者楔前叶分区异常研究
                                     <div className='student'>
                                         <br /><span>邮箱地址：</span>savannah_lose@163.com
                                         <br />就读时间：2018.09~2021.03
