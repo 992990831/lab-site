@@ -8,7 +8,7 @@ const getFaculty = () => {
     peoples.push(
         <div className="col-xs-12 col-sm-12 col-md-4 col-lg-4">
             <div className="singlePeople">
-                <a href="#" className="Card">
+                <a href="javascript:void(0)" className="Card">
                     <div className="left">
                         <div className="img-box">
                             <div className="img">
@@ -40,7 +40,7 @@ const getFaculty = () => {
     peoples.push(
         <div className="col-xs-12 col-sm-12 col-md-4 col-lg-4" key={2}>
             <div className="singlePeople">
-                <a href="#" className="Card">
+                <a href="/people/zhangyaoyu/" className="Card">
                     <div className="left">
                         <div className="img-box">
                             <div className="img">
@@ -78,7 +78,7 @@ const getStudents = () => {
     peoples.push(
         <div className="col-xs-12 col-sm-12 col-md-4 col-lg-4">
             <div className="singlePeople">
-                <a href="#" className="Card">
+                <a href="javascript:void(0)" className="Card">
                     <div className="left">
                         <div className="img-box">
                             <div className="img">
@@ -118,7 +118,7 @@ const getStudents = () => {
     peoples.push(
         <div className="col-xs-12 col-sm-12 col-md-4 col-lg-4">
             <div className="singlePeople">
-                <a href="#" className="Card">
+                <a href="javascript:void(0)" className="Card">
                     <div className="left">
                         <div className="img-box">
                             <div className="img">
@@ -158,7 +158,7 @@ const getStudents = () => {
     peoples.push(
         <div className="col-xs-12 col-sm-12 col-md-4 col-lg-4">
             <div className="singlePeople">
-                <a href="#" className="Card">
+                <a href="javascript:void(0)" className="Card">
                     <div className="left">
                         <div className="img-box">
                             <div className="img">
@@ -198,7 +198,7 @@ const getStudents = () => {
     peoples.push(
         <div className="col-xs-12 col-sm-12 col-md-4 col-lg-4">
             <div className="singlePeople">
-                <a href="#" className="Card">
+                <a href="javascript:void(0)" className="Card">
                     <div className="left">
                         <div className="img-box">
                             <div className="img">
@@ -238,7 +238,7 @@ const getStudents = () => {
     peoples.push(
         <div className="col-xs-12 col-sm-12 col-md-4 col-lg-4">
             <div className="singlePeople">
-                <a href="#" className="Card">
+                <a href="javascript:void(0)" className="Card">
                     <div className="left">
                         <div className="img-box">
                             <div className="img">
@@ -278,7 +278,7 @@ const getStudents = () => {
     peoples.push(
         <div className="col-xs-12 col-sm-12 col-md-4 col-lg-4">
             <div className="singlePeople">
-                <a href="#" className="Card">
+                <a href="javascript:void(0)" className="Card">
                     <div className="left">
                         <div className="img-box">
                             <div className="img">
@@ -318,7 +318,7 @@ const getStudents = () => {
     peoples.push(
         <div className="col-xs-12 col-sm-12 col-md-4 col-lg-4">
             <div className="singlePeople">
-                <a href="#" className="Card">
+                <a href="javascript:void(0)" className="Card">
                     <div className="left">
                         <div className="img-box">
                             <div className="img">
@@ -358,7 +358,7 @@ const getStudents = () => {
     peoples.push(
         <div className="col-xs-12 col-sm-12 col-md-4 col-lg-4">
             <div className="singlePeople">
-                <a href="#" className="Card">
+                <a href="javascript:void(0)" className="Card">
                     <div className="left">
                         <div className="img-box">
                             <div className="img">
@@ -398,7 +398,7 @@ const getStudents = () => {
     peoples.push(
         <div className="col-xs-12 col-sm-12 col-md-4 col-lg-4">
             <div className="singlePeople">
-                <a href="#" className="Card">
+                <a href="javascript:void(0)" className="Card">
                     <div className="left">
                         <div className="img-box">
                             <div className="img">
@@ -438,7 +438,7 @@ const getStudents = () => {
     peoples.push(
         <div className="col-xs-12 col-sm-12 col-md-4 col-lg-4">
             <div className="singlePeople">
-                <a href="#" className="Card">
+                <a href="javascript:void(0)" className="Card">
                     <div className="left">
                         <div className="img-box">
                             <div className="img">
@@ -478,7 +478,7 @@ const getStudents = () => {
     peoples.push(
         <div className="col-xs-12 col-sm-12 col-md-4 col-lg-4">
             <div className="singlePeople">
-                <a href="#" className="Card">
+                <a href="javascript:void(0)" className="Card">
                     <div className="left">
                         <div className="img-box">
                             <div className="img">
@@ -518,7 +518,7 @@ const getStudents = () => {
     peoples.push(
         <div className="col-xs-12 col-sm-12 col-md-4 col-lg-4">
             <div className="singlePeople">
-                <a href="#" className="Card">
+                <a href="javascript:void(0)" className="Card">
                     <div className="left">
                         <div className="img-box">
                             <div className="img">
@@ -565,7 +565,7 @@ const getGraduated = () => {
     peoples.push(
         <div className="col-xs-12 col-sm-12 col-md-4 col-lg-4">
             <div className="singlePeople">
-                <a href="#" className="Card">
+                <a href="javascript:void(0)" className="Card">
                     <div className="left">
                         <div className="img-box">
                             <div className="img">
@@ -605,7 +605,7 @@ const getGraduated = () => {
     peoples.push(
         <div className="col-xs-12 col-sm-12 col-md-4 col-lg-4">
             <div className="singlePeople">
-                <a href="#" className="Card">
+                <a href="javascript:void(0)" className="Card">
                     <div className="left">
                         <div className="img-box">
                             <div className="img">
@@ -645,7 +645,7 @@ const getGraduated = () => {
     peoples.push(
         <div className="col-xs-12 col-sm-12 col-md-4 col-lg-4">
             <div className="singlePeople">
-                <a href="#" className="Card">
+                <a href="javascript:void(0)" className="Card">
                     <div className="left">
                         <div className="img-box">
                             <div className="img">
@@ -685,7 +685,7 @@ const getGraduated = () => {
     peoples.push(
         <div className="col-xs-12 col-sm-12 col-md-4 col-lg-4">
             <div className="singlePeople">
-                <a href="#" className="Card">
+                <a href="javascript:void(0)" className="Card">
                     <div className="left">
                         <div className="img-box">
                             <div className="img">
@@ -725,7 +725,7 @@ const getGraduated = () => {
     peoples.push(
         <div className="col-xs-12 col-sm-12 col-md-4 col-lg-4">
             <div className="singlePeople">
-                <a href="#" className="Card">
+                <a href="javascript:void(0)" className="Card">
                     <div className="left">
                         <div className="img-box">
                             <div className="img">
@@ -765,7 +765,7 @@ const getGraduated = () => {
     peoples.push(
         <div className="col-xs-12 col-sm-12 col-md-4 col-lg-4">
             <div className="singlePeople">
-                <a href="#" className="Card">
+                <a href="javascript:void(0)" className="Card">
                     <div className="left">
                         <div className="img-box">
                             <div className="img">
@@ -805,7 +805,7 @@ const getGraduated = () => {
     peoples.push(
         <div className="col-xs-12 col-sm-12 col-md-4 col-lg-4">
             <div className="singlePeople">
-                <a href="#" className="Card">
+                <a href="javascript:void(0)" className="Card">
                     <div className="left">
                         <div className="img-box">
                             <div className="img">
@@ -845,7 +845,7 @@ const getGraduated = () => {
     peoples.push(
         <div className="col-xs-12 col-sm-12 col-md-4 col-lg-4">
             <div className="singlePeople">
-                <a href="#" className="Card">
+                <a href="javascript:void(0)" className="Card">
                     <div className="left">
                         <div className="img-box">
                             <div className="img">
@@ -892,7 +892,7 @@ const PeopleGallery = () => {
                 // 导师
                 <div className="col-xs-12 col-sm-12 col-md-4 col-lg-12">
                     <div className="singlePeople" style={{height:"auto"}}>
-                        <a href="#" className="big-profile-image">
+                        <a href="/people/liyao/" className="big-profile-image">
                             <div className="left tutor">
                                 <div className="img-box">
                                     <div className="img">

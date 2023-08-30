@@ -5316,3 +5316,21 @@
       display: none !important;
     }
   }
+
+  .ti-bg {
+    width: 175px;
+    height: 57px;
+    font-size: 17px;
+    font-weight: bold;
+    background: url(../images/ti_bg.png) no-repeat center center;
+    line-height: 57px;
+    vertical-align: middle;
+    padding-left: 35px;
+    color: #fff;
+    margin-bottom: 10px;
+    margin-top: 30px;
+  }
+
+  .people-detail-text {
+    padding: 0 15px;;
+  }
