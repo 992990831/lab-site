@@ -11,4 +11,4 @@ const IndexPage: React.FC<PageProps> = () => {
 }
 export default IndexPage
 
-export const Head: HeadFC = () => <title>阿尔法Lab实验室</title>
+export const Head: HeadFC = () => <title>Alpha Brain Lab</title>

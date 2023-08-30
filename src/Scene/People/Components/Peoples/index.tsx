@@ -27,7 +27,7 @@ const getFaculty = () => {
                         <div className="desc">
                             <p>
                                 <span>
-                                    博士后<br />2021年6月毕业于中国科学院大学模式识别与智能系统专业，获工学博士学位，现就职于上海交通大学。主要从事机器学习驱动的磁共振成像研究。
+                                    博士后<br />结合磁共振物理及人工智能的磁共振快速高分辨率成像。
                                 </span>
                             </p>
                         </div>
@@ -59,7 +59,7 @@ const getFaculty = () => {
                         <div className="desc">
                             <p>
                                 <span>
-                                    博士<br />2020年于北京大学获整合生命科学（物理学）博士，同年加入上海交通大学生物医学工程学院。获2022年国际医学磁共振学会（ISMRM）大会优秀论文最高奖。
+                                    助理研究员<br />脑血流灌注成像、脑氧代谢成像、脑功能成像、脑波谱成像等多模态磁共振成像技术在脑疾病中的临床应用与转化。
                                 </span>
                             </p>
                         </div>
@@ -82,38 +82,6 @@ const getStudents = () => {
                     <div className="left">
                         <div className="img-box">
                             <div className="img">
-                                <StaticImage
-                                    alt="team member"
-                                    src={`./images/profile/3_10_62890307-B0C9-4ABC-9B32-D7E64430BBF2.jpeg`}
-                                />
-                                {/* <img src={data.data.img} alt="" /> */}
-                            </div>
-                        </div>
-                    </div>
-                    <div className="right">
-                        <div className="name">
-                            <h2>林增萍</h2>
-                        </div>
-                        <div className="desc">
-                            <p>
-                                <span>
-                                    硕士<br />专业领域为PET/MR 和 MR 在神经系统疾病及肿瘤中的应用。
-                                </span>
-                            </p>
-                        </div>
-                    </div>
-                </a>
-            </div>
-        </div>
-    );
-
-    peoples.push(
-        <div className="col-xs-12 col-sm-12 col-md-4 col-lg-4">
-            <div className="singlePeople">
-                <a href="#" className="Card">
-                    <div className="left">
-                        <div className="img-box">
-                            <div className="img">
                                 <StaticImage style={{display:"contents"}}
                                     alt="team member"
                                     src={`./images/profile/4_10_20230825190247.jpg`}
@@ -126,106 +94,18 @@ const getStudents = () => {
                         <div className="name">
                             <h2>张云鹏</h2>
                         </div>
-                        <div className="desc">
+                        <div>
                             <p>
                                 <span>
                                     博士<br />脑结构图谱构建及其在脑结构分割中的应用。
-                                </span>
-                            </p>
-                        </div>
-                    </div>
-                </a>
-            </div>
-        </div>
-    );
-
-    peoples.push(
-        <div className="col-xs-12 col-sm-12 col-md-4 col-lg-4">
-            <div className="singlePeople">
-                <a href="#" className="Card">
-                    <div className="left">
-                        <div className="img-box">
-                            <div className="img">
-                                <StaticImage style={{display:"contents"}}
-                                    alt="team member"
-                                    src={`./images/profile/5_10_MTXX_MR20230825_193126014.jpg`}
-                                />
-                                {/* <img src={data.data.img} alt="" /> */}
-                            </div>
-                        </div>
-                    </div>
-                    <div className="right">
-                        <div className="name">
-                            <h2>孙琬晴</h2>
-                        </div>
-                        <div className="desc">
-                            <p>
-                                <span>
-                                    硕士<br />MR 脑科学
-                                </span>
-                            </p>
-                        </div>
-                    </div>
-                </a>
-            </div>
-        </div>
-    );
-
-    peoples.push(
-        <div className="col-xs-12 col-sm-12 col-md-4 col-lg-4">
-            <div className="singlePeople">
-                <a href="#" className="Card">
-                    <div className="left">
-                        <div className="img-box">
-                            <div className="img">
-                                <StaticImage style={{display:"contents"}}
-                                    alt="team member"
-                                    src={`./images/profile/6_10_mmexport1628135609124.png`}
-                                />
-                                {/* <img src={data.data.img} alt="" /> */}
-                            </div>
-                        </div>
-                    </div>
-                    <div className="right">
-                        <div className="name">
-                            <h2>关紫允</h2>
-                        </div>
-                        <div className="desc">
-                            <p>
-                                <span>
-                                    硕士<br />阿尔兹海默症脑功能网络研究
-                                </span>
-                            </p>
-                        </div>
-                    </div>
-                </a>
-            </div>
-        </div>
-    );
-
-    peoples.push(
-        <div className="col-xs-12 col-sm-12 col-md-4 col-lg-4">
-            <div className="singlePeople">
-                <a href="#" className="Card">
-                    <div className="left">
-                        <div className="img-box">
-                            <div className="img">
-                                <StaticImage style={{display:"contents"}}
-                                    alt="team member"
-                                    src={`./images/profile/7_10_IMG_6258.png`}
-                                />
-                                {/* <img src={data.data.img} alt="" /> */}
-                            </div>
-                        </div>
-                    </div>
-                    <div className="right">
-                        <div className="name">
-                            <h2>胡毓杰</h2>
-                        </div>
-                        <div className="desc">
-                            <p>
-                                <span>
-                                    硕士<br />磁共振临床脑疾病研究
+                                    <div className='student'>
+                                        <br /><span>邮箱地址：</span>zhangypbme_ly@sjtu.edu.cn
+                                        <br />入学时间：2019.09
+                                    </div>
+                                    <div className='student-mobile'>
+                                        <br />zhangypbme_ly@sjtu.edu.cn
+                                        <br />2019.09~至今
+                                    </div>                                    
                                 </span>
                             </p>
                         </div>
@@ -258,6 +138,54 @@ const getStudents = () => {
                             <p>
                                 <span>
                                     硕士<br />磁共振临床脑疾病研究
+                                    <div className='student'>
+                                        <br /><span>邮箱地址：</span>thecheng@sjtu.edu.cn
+                                        <br />入学时间：2024.09
+                                    </div>
+                                    <div className='student-mobile'>
+                                        <br />thecheng@sjtu.edu.cn
+                                        <br />2024.09即将入学
+                                    </div>
+                                </span>
+                            </p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+    );
+
+    peoples.push(
+        <div className="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+            <div className="singlePeople">
+                <a href="#" className="Card">
+                    <div className="left">
+                        <div className="img-box">
+                            <div className="img">
+                                <StaticImage style={{display:"contents"}}
+                                    alt="team member"
+                                    src={`./images/profile/9_10_IMG_7251.jpeg`}
+                                />
+                                {/* <img src={data.data.img} alt="" /> */}
+                            </div>
+                        </div>
+                    </div>
+                    <div className="right">
+                        <div className="name">
+                            <h2>王聃妮</h2>
+                        </div>
+                        <div className="desc">
+                            <p>
+                                <span>
+                                    博士<br />多模态脑影像在神经/精神疾病中的应用
+                                    <div className='student'>
+                                        <br /><span>邮箱地址：</span>wang_danni@sjtu.edu.cn
+                                        <br />入学时间：2020.09
+                                    </div>
+                                    <div className='student-mobile'>
+                                        <br />wang_danni@sjtu.edu.cn
+                                        <br />2020.09~至今
+                                    </div>
                                 </span>
                             </p>
                         </div>
@@ -289,7 +217,15 @@ const getStudents = () => {
                         <div className="desc">
                             <p>
                                 <span>
-                                    未注明<br />磁共振临床脑疾病研究
+                                    硕士<br />磁共振临床脑疾病研究
+                                    <div className='student'>
+                                        <br /><span>邮箱地址：</span>fengshuoyun@sjtu.edu.cn
+                                        <br />入学时间：2024.09
+                                    </div>
+                                    <div className='student-mobile'>
+                                        <br />fengshuoyun@sjtu.edu.cn
+                                        <br />2024.09即将入学
+                                    </div>
                                 </span>
                             </p>
                         </div>
@@ -321,7 +257,15 @@ const getStudents = () => {
                         <div className="desc">
                             <p>
                                 <span>
-                                    未注明<br />多模态脑影像在阿尔茨海默病中的应用
+                                    博士<br />多模态脑影像在阿尔茨海默病中的应用
+                                    <div className='student'>
+                                        <br /><span>邮箱地址：</span>hujl_bme@sjtu.edu.cn
+                                        <br />入学时间：2018.09
+                                    </div>
+                                    <div className='student-mobile'>
+                                        <br />hujl_bme@sjtu.edu.cn
+                                        <br />2018.09~至今
+                                    </div>
                                 </span>
                             </p>
                         </div>
@@ -354,38 +298,14 @@ const getStudents = () => {
                             <p>
                                 <span>
                                     硕士<br />多模态磁共振影像
-                                </span>
-                            </p>
-                        </div>
-                    </div>
-                </a>
-            </div>
-        </div>
-    );
-
-    peoples.push(
-        <div className="col-xs-12 col-sm-12 col-md-4 col-lg-4">
-            <div className="singlePeople">
-                <a href="#" className="Card">
-                    <div className="left">
-                        <div className="img-box">
-                            <div className="img">
-                                <StaticImage style={{display:"contents"}}
-                                    alt="team member"
-                                    src={`./images/profile/14_10_zp1693053941491.jpg`}
-                                />
-                                {/* <img src={data.data.img} alt="" /> */}
-                            </div>
-                        </div>
-                    </div>
-                    <div className="right">
-                        <div className="name">
-                            <h2>余鹏程</h2>
-                        </div>
-                        <div className="desc">
-                            <p>
-                                <span>
-                                    硕士<br />图像处理 计算机视觉
+                                    <div className='student'>
+                                        <br /><span>邮箱地址：</span>silver_lining@sjtu.edu.cn
+                                        <br />入学时间：2023.09
+                                    </div>
+                                    <div className='student-mobile'>
+                                        <br />silver_lining@sjtu.edu.cn
+                                        <br />2023.09~至今
+                                    </div>
                                 </span>
                             </p>
                         </div>
@@ -418,102 +338,14 @@ const getStudents = () => {
                             <p>
                                 <span>
                                     博士<br />生成模型、异常检测算法、脑图谱构建
-                                </span>
-                            </p>
-                        </div>
-                    </div>
-                </a>
-            </div>
-        </div>
-    );
-
-    peoples.push(
-        <div className="col-xs-12 col-sm-12 col-md-4 col-lg-4">
-            <div className="singlePeople">
-                <a href="#" className="Card">
-                    <div className="left">
-                        <div className="img-box">
-                            <div className="img">
-                                <StaticImage style={{display:"contents"}}
-                                    alt="team member"
-                                    src={`./images/profile/16_10_IMG_3990.jpeg`}
-                                />
-                                {/* <img src={data.data.img} alt="" /> */}
-                            </div>
-                        </div>
-                    </div>
-                    <div className="right">
-                        <div className="name">
-                            <h2>孟子瑜</h2>
-                        </div>
-                        <div className="desc">
-                            <p>
-                                <span>
-                                    博士<br />基于自旋回波序列的大脑快速定量T2成像重建算法研究及临床应用；融合生物先验和多模态磁共振脑影像的脑疾病模型研究；
-                                </span>
-                            </p>
-                        </div>
-                    </div>
-                </a>
-            </div>
-        </div>
-    );
-
-    peoples.push(
-        <div className="col-xs-12 col-sm-12 col-md-4 col-lg-4">
-            <div className="singlePeople">
-                <a href="#" className="Card">
-                    <div className="left">
-                        <div className="img-box">
-                            <div className="img">
-                                <StaticImage style={{display:"contents"}}
-                                    alt="team member"
-                                    src={`./images/profile/18_10_IMG_20230323_134335.jpg`}
-                                />
-                                {/* <img src={data.data.img} alt="" /> */}
-                            </div>
-                        </div>
-                    </div>
-                    <div className="right">
-                        <div className="name">
-                            <h2>叶倩倩</h2>
-                        </div>
-                        <div className="desc">
-                            <p>
-                                <span>
-                                    硕士<br />精神分裂症患者纵向脑结构改变，药物治疗对强迫症患者脑功能网络改变的影响，强迫症患者楔前叶分区功能连接改变的异常情况研究
-                                </span>
-                            </p>
-                        </div>
-                    </div>
-                </a>
-            </div>
-        </div>
-    );
-
-    peoples.push(
-        <div className="col-xs-12 col-sm-12 col-md-4 col-lg-4">
-            <div className="singlePeople">
-                <a href="#" className="Card">
-                    <div className="left">
-                        <div className="img-box">
-                            <div className="img">
-                                <StaticImage style={{display:"contents"}}
-                                    alt="team member"
-                                    src={`./images/profile/19_10_IMG_7544.jpeg`}
-                                />
-                                {/* <img src={data.data.img} alt="" /> */}
-                            </div>
-                        </div>
-                    </div>
-                    <div className="right">
-                        <div className="name">
-                            <h2>张天骁</h2>
-                        </div>
-                        <div className="desc">
-                            <p>
-                                <span>
-                                    博士<br />磁共振场B1不均匀性，磁共振B0场不均匀性，T2‘成像，神经代谢和氧代谢同步成像
+                                    <div className='student'>
+                                        <br /><span>邮箱地址：</span>hxzhuang@sjtu.edu.cn
+                                        <br />入学时间：2021.09
+                                    </div>
+                                    <div className='student-mobile'>
+                                        <br />hxzhuang@sjtu.edu.cn
+                                        <br />2021.09~至今
+                                    </div>
                                 </span>
                             </p>
                         </div>
@@ -546,6 +378,14 @@ const getStudents = () => {
                             <p>
                                 <span>
                                     硕士<br />医学图像配准、图像修复
+                                    <div className='student'>
+                                        <br /><span>邮箱地址：</span>dingyitk159@sjtu.edu.cn
+                                        <br />入学时间：2022.09
+                                    </div>
+                                    <div className='student-mobile'>
+                                        <br />dingyitk159@sjtu.edu.cn
+                                        <br />2022.09~至今
+                                    </div>
                                 </span>
                             </p>
                         </div>
@@ -578,6 +418,14 @@ const getStudents = () => {
                             <p>
                                 <span>
                                     硕士<br />脑血流图谱构建，融合多模态脑影像的缺血脑卒中、脑胶质瘤异常检测
+                                    <div className='student'>
+                                        <br /><span>邮箱地址：</span>yuhao314@sjtu.edu.cn
+                                        <br />入学时间：2021.09
+                                    </div>
+                                    <div className='student-mobile'>
+                                        <br />yuhao314@sjtu.edu.cn
+                                        <br />2021.09~至今
+                                    </div>
                                 </span>
                             </p>
                         </div>
@@ -610,6 +458,14 @@ const getStudents = () => {
                             <p>
                                 <span>
                                     博士<br />磁共振脑影像图像后处理
+                                    <div className='student'>
+                                        <br /><span>邮箱地址：</span>limit-searcher@sjtu.edu.cn
+                                        <br />入学时间：2022.09
+                                    </div>
+                                    <div className='student-mobile'>
+                                        <br />limit-searcher@sjtu.edu.cn
+                                        <br />2022.09~至今
+                                    </div>
                                 </span>
                             </p>
                         </div>
@@ -642,6 +498,14 @@ const getStudents = () => {
                             <p>
                                 <span>
                                     博士<br />多模态脑影像融合分析，脑疾病功能-代谢耦合机制，阿尔兹海默症，精神分裂症
+                                    <div className='student'>
+                                        <br /><span>邮箱地址：</span>liwenli@sjtu.edu.cn
+                                        <br />入学时间：2018.09
+                                    </div>
+                                    <div className='student-mobile'>
+                                        <br />liwenli@sjtu.edu.cn
+                                        <br />2018.09~至今
+                                    </div>
                                 </span>
                             </p>
                         </div>
@@ -674,6 +538,14 @@ const getStudents = () => {
                             <p>
                                 <span>
                                     博士<br />医学图像配准，多模态医学图像的后处理
+                                    <div className='student'>
+                                        <br /><span>邮箱地址：</span>wenqizhang@sjtu.edu.cn
+                                        <br />入学时间：2023.09
+                                    </div>
+                                    <div className='student-mobile'>
+                                        <br />wenqizhang@sjtu.edu.cn
+                                        <br />2023.09~至今
+                                    </div>
                                 </span>
                             </p>
                         </div>
@@ -683,6 +555,332 @@ const getStudents = () => {
         </div>
     );
 
+
+    return peoples;
+}
+
+const getGraduated = () => {
+    let peoples = [];
+
+    peoples.push(
+        <div className="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+            <div className="singlePeople">
+                <a href="#" className="Card">
+                    <div className="left">
+                        <div className="img-box">
+                            <div className="img">
+                                <StaticImage
+                                    alt="team member"
+                                    src={`./images/profile/3_10_62890307-B0C9-4ABC-9B32-D7E64430BBF2.jpeg`}
+                                />
+                                {/* <img src={data.data.img} alt="" /> */}
+                            </div>
+                        </div>
+                    </div>
+                    <div className="right">
+                        <div className="name">
+                            <h2>林增萍</h2>
+                        </div>
+                        <div className="desc">
+                            <p>
+                                <span>
+                                    硕士<br />专业领域为PET/MR 和 MR 在神经系统疾病及肿瘤中的应用。
+                                    <div className='student'>
+                                        <br /><span>邮箱地址：</span>13920963669@163.com
+                                        <br />就读时间：2019.09~2022.03
+                                    </div>
+                                    <div className='student-mobile'>
+                                        <br />13920963669@163.com
+                                        <br />2019.09~2022.03
+                                    </div>
+                                </span>
+                            </p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+    );
+
+    peoples.push(
+        <div className="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+            <div className="singlePeople">
+                <a href="#" className="Card">
+                    <div className="left">
+                        <div className="img-box">
+                            <div className="img">
+                                <StaticImage style={{display:"contents"}}
+                                    alt="team member"
+                                    src={`./images/profile/5_10_MTXX_MR20230825_193126014.jpg`}
+                                />
+                                {/* <img src={data.data.img} alt="" /> */}
+                            </div>
+                        </div>
+                    </div>
+                    <div className="right">
+                        <div className="name">
+                            <h2>孙琬晴</h2>
+                        </div>
+                        <div className="desc">
+                            <p>
+                                <span>
+                                    硕士<br />MR 脑科学
+                                    <div className='student'>
+                                        <br /><span>邮箱地址：</span>1995754262@qq.com
+                                        <br />就读时间：2019.09~2022.03
+                                    </div>
+                                    <div className='student-mobile'>
+                                        <br />1995754262@qq.com
+                                        <br />2019.09~2022.03
+                                    </div>
+                                </span>
+                            </p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+    );
+
+    peoples.push(
+        <div className="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+            <div className="singlePeople">
+                <a href="#" className="Card">
+                    <div className="left">
+                        <div className="img-box">
+                            <div className="img">
+                                <StaticImage style={{display:"contents"}}
+                                    alt="team member"
+                                    src={`./images/profile/6_10_mmexport1628135609124.png`}
+                                />
+                                {/* <img src={data.data.img} alt="" /> */}
+                            </div>
+                        </div>
+                    </div>
+                    <div className="right">
+                        <div className="name">
+                            <h2>关紫允</h2>
+                        </div>
+                        <div className="desc">
+                            <p>
+                                <span>
+                                    硕士<br />阿尔兹海默症脑功能网络研究
+                                    <div className='student'>
+                                        <br /><span>邮箱地址：</span>guan_ziy@163.com
+                                        <br />就读时间：2019.09~2022.03
+                                    </div>
+                                    <div className='student-mobile'>
+                                        <br />guan_ziy@163.com
+                                        <br />2019.09~2022.03
+                                    </div>
+                                </span>
+                            </p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+    );
+
+    peoples.push(
+        <div className="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+            <div className="singlePeople">
+                <a href="#" className="Card">
+                    <div className="left">
+                        <div className="img-box">
+                            <div className="img">
+                                <StaticImage style={{display:"contents"}}
+                                    alt="team member"
+                                    src={`./images/profile/7_10_IMG_6258.png`}
+                                />
+                                {/* <img src={data.data.img} alt="" /> */}
+                            </div>
+                        </div>
+                    </div>
+                    <div className="right">
+                        <div className="name">
+                            <h2>胡毓杰</h2>
+                        </div>
+                        <div className="desc">
+                            <p>
+                                <span>
+                                    硕士<br />磁共振临床脑疾病研究
+                                    <div className='student'>
+                                        <br /><span>邮箱地址：</span>951356126@qq.com
+                                        <br />就读时间：2020.09~2023.03
+                                    </div>
+                                    <div className='student-mobile'>
+                                        <br />951356126@qq.com
+                                        <br />2020.09~2023.03
+                                    </div>
+                                </span>
+                            </p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+    );
+
+    peoples.push(
+        <div className="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+            <div className="singlePeople">
+                <a href="#" className="Card">
+                    <div className="left">
+                        <div className="img-box">
+                            <div className="img">
+                                <StaticImage style={{display:"contents"}}
+                                    alt="team member"
+                                    src={`./images/profile/14_10_zp1693053941491.jpg`}
+                                />
+                                {/* <img src={data.data.img} alt="" /> */}
+                            </div>
+                        </div>
+                    </div>
+                    <div className="right">
+                        <div className="name">
+                            <h2>余鹏程</h2>
+                        </div>
+                        <div className="desc">
+                            <p>
+                                <span>
+                                    硕士<br />图像处理 计算机视觉
+                                    <div className='student'>
+                                        <br /><span>邮箱地址：</span>pengcheng.yukaka@gmail.com
+                                        <br />就读时间：2018.09~2021.06
+                                    </div>
+                                    <div className='student-mobile'>
+                                        <br />pengcheng.yukaka@gmail.com
+                                        <br />2018.09~2021.06
+                                    </div>
+                                </span>
+                            </p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+    );
+
+    peoples.push(
+        <div className="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+            <div className="singlePeople">
+                <a href="#" className="Card">
+                    <div className="left">
+                        <div className="img-box">
+                            <div className="img">
+                                <StaticImage style={{display:"contents"}}
+                                    alt="team member"
+                                    src={`./images/profile/16_10_IMG_3990.jpeg`}
+                                />
+                                {/* <img src={data.data.img} alt="" /> */}
+                            </div>
+                        </div>
+                    </div>
+                    <div className="right">
+                        <div className="name">
+                            <h2>孟子瑜</h2>
+                        </div>
+                        <div className="desc">
+                            <p>
+                                <span>
+                                    博士<br />基于自旋回波序列的大脑快速定量T2成像重建算法研究及临床应用；融合生物先验和多模态磁共振脑影像的脑疾病模型研究；
+                                    <div className='student'>
+                                        <br /><span>邮箱地址：</span>mengzy0306@sjtu.edu.cn
+                                        <br />就读时间：2016.09~2023.09
+                                    </div>
+                                    <div className='student-mobile'>
+                                        <br />mengzy0306@sjtu.edu.cn
+                                        <br />2016.09~2023.09
+                                    </div>
+                                </span>
+                            </p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+    );
+
+    peoples.push(
+        <div className="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+            <div className="singlePeople">
+                <a href="#" className="Card">
+                    <div className="left">
+                        <div className="img-box">
+                            <div className="img">
+                                <StaticImage style={{display:"contents"}}
+                                    alt="team member"
+                                    src={`./images/profile/18_10_IMG_20230323_134335.jpg`}
+                                />
+                                {/* <img src={data.data.img} alt="" /> */}
+                            </div>
+                        </div>
+                    </div>
+                    <div className="right">
+                        <div className="name">
+                            <h2>叶倩倩</h2>
+                        </div>
+                        <div className="desc">
+                            <p>
+                                <span>
+                                    硕士<br />精神分裂症患者纵向脑结构改变，药物治疗对强迫症患者脑功能网络改变的影响，强迫症患者楔前叶分区功能连接改变的异常情况研究
+                                    <div className='student'>
+                                        <br /><span>邮箱地址：</span>savannah_lose@163.com
+                                        <br />就读时间：2018.09~2021.03
+                                    </div>
+                                    <div className='student-mobile'>
+                                        <br />savannah_lose@163.com
+                                        <br />2018.09~2021.03
+                                    </div>
+                                </span>
+                            </p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+    );
+
+    peoples.push(
+        <div className="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+            <div className="singlePeople">
+                <a href="#" className="Card">
+                    <div className="left">
+                        <div className="img-box">
+                            <div className="img">
+                                <StaticImage style={{display:"contents"}}
+                                    alt="team member"
+                                    src={`./images/profile/19_10_IMG_7544.jpeg`}
+                                />
+                                {/* <img src={data.data.img} alt="" /> */}
+                            </div>
+                        </div>
+                    </div>
+                    <div className="right">
+                        <div className="name">
+                            <h2>张天骁</h2>
+                        </div>
+                        <div className="desc">
+                            <p>
+                                <span>
+                                    博士<br />磁共振场B1不均匀性，磁共振B0场不均匀性，T2‘成像，神经代谢和氧代谢同步成像
+                                    <div className='student'>
+                                        <br /><span>邮箱地址：</span>1044620751@qq.com
+                                        <br />就读时间：2017.09~2023.09
+                                    </div>
+                                    <div className='student-mobile'>
+                                        <br />1044620751@qq.com
+                                        <br />2017.09~2023.09
+                                    </div>
+                                </span>
+                            </p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+    );
 
     return peoples;
 }
@@ -707,7 +905,7 @@ const PeopleGallery = () => {
                                 </div>
                             </div>
                             <div className="right full-width">
-                                <div className="name">
+                                <div className="name" style={{marginTop:"5px"}}>
                                     <h2>李瑶</h2>
                                 </div>
                                 <div className="desc">
@@ -722,12 +920,19 @@ const PeopleGallery = () => {
                     </div>
                 </div>
             }
+            <h1 style={{textAlign:"center", clear:"both", margin:"0px"}}>教职工</h1>
             {
                 getFaculty()
             }
+            <h1 style={{textAlign:"center", clear:"both", margin:"0px"}}>在校学生</h1>
             <br style={{clear:"both"}} />
             {
                 getStudents()
+            }
+
+            <h1 style={{textAlign:"center", clear:"both", margin:"0px"}}>已毕业校友</h1>
+            {
+                getGraduated()
             }
 
             {/* StaticImage不支持函数参数作为输入 */}

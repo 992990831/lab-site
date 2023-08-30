@@ -7,7 +7,7 @@ const IndexPage: React.FC<PageProps> = () => {
     return (
       <>
         <Header></Header>
-        <div style={{backgroundColor:"#f6f7f8", marginTop:"-80vh", height:"200vh", position:"relative"}}>
+        <div style={{backgroundColor:"#f6f7f8", marginTop:"-80vh", height:"300vh", position:"relative"}}>
           <PeopleGallery></PeopleGallery>
         </div>
         
@@ -16,4 +16,4 @@ const IndexPage: React.FC<PageProps> = () => {
 }
 export default IndexPage
 
-export const Head: HeadFC = () => <title>阿尔法Lab实验室</title>
+export const Head: HeadFC = () => <title>Alpha Brain Lab</title>
