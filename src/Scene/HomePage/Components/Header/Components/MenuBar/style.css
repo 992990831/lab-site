@@ -119,10 +119,10 @@ a.homeNavHandler.active {
     background-color: rgba(0, 0, 0, 0.50);
   }
   .homeNav.active > ul {
-    right: 10vw;
+    right: 7vw;
   }
   .homeNav > ul > li {
-    margin-left: 18px;
+    margin-left: 10px;
   }
   /* .homeNav > ul > li.moreOption {
     display: none;

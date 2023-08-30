@@ -109,7 +109,11 @@ class MenuBar extends React.Component<MenuBarProps, MenuBarState> {
           {/* <Icon name="bars" /> */}
         </a>
         <div className={'homeNav' + (this.state.isHandlerActive ? ' active' : '')} >
-          <ul>
+          <ul style={{fontSize:"14px"}}>
+          <li className="moreOption">
+              {/* <a href="javascript:void(0)">People</a> */}
+              <Link to={"/"} activeClassName="activeLink">Home</Link>
+            </li>
             <li className="moreOption">
               {/* <a href="javascript:void(0)">People</a> */}
               <Link to={"/people"} activeClassName="activeLink">People</Link>
