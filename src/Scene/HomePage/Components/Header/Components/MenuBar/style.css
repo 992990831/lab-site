@@ -138,19 +138,19 @@ a.homeNavHandler.active {
 
 
 .sjtu-logo {
-  background-image: url("imgs/logo_white.png");
+  background-image: url("imgs/logo_sjtu.png");
   background-size: contain;
   background-repeat: no-repeat;
-  width: 50vw;
+  width: 20vw;
   height: 20vh;
 }
 
 @media screen and (max-width: 767px ) {
   .sjtu-logo {
-    background-image: url("imgs/logo_white.png");
+    background-image: url("imgs/logo_sjtu.png");
     background-size: contain;
     background-repeat: no-repeat;
-    width: 70vw;
+    width: 50vw;
     height: 20vh;
   }
 }
