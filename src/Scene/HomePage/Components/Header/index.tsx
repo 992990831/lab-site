@@ -15,7 +15,7 @@ class Header extends React.Component<{}, {}> {
         <div className="menuBarWrapper"> 
           <MenuBar isPersist={false} isLogin={false} />
         </div>
-        <Caption />
+        {/* <Caption /> */}
       </div>
     );
   }

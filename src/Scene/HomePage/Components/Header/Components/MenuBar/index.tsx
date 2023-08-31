@@ -91,9 +91,12 @@ class MenuBar extends React.Component<MenuBarProps, MenuBarState> {
           {/* {'Language Selector'} */}
         </div>
         <a href="/">
-          <div className="homeLogo osLight">
+          <div className="homeLogo osLight" style={{display:"flex"}}>
             {/* <Icon name="home" size="2x" />  */}
             <div className='sjtu-logo'></div>
+            <div className="lab-logo">阿尔法脑实验室
+              <div className='lab-logo-small'>Alpha Brain Lab</div>
+            </div>
           </div>
         </a>
         <a 
