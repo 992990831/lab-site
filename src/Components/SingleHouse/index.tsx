@@ -9,15 +9,15 @@ class SingleHouse extends React.Component<SingleHouseProps, {}> {
   render() {
     return (
       <div className="singleHouse">
-        <a href="#" className="card">
+        <a href="javascript:void(0)" className="card">
           <div className="figure">
             <img src={this.props.data.img} alt="image" />
-            <div className="figCaption">
+            {/* <div className="figCaption">
               <div>$1,550,000</div>
               <span className="icon-eye"> 200</span>
               <span className="icon-heart"> 54</span>
               <span className="icon-bubble"> 13</span>
-            </div>
+            </div> */}
             <div className="figView"><span className="icon-eye" /></div>
             {/* <div className="figType">FOR SALE</div> */}
           </div>

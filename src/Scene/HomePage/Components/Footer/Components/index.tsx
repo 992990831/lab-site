@@ -27,14 +27,8 @@ class FooterContainer extends React.Component<{}, {}> {
   render() {
     return (
       <div className="footerContainer">
-        <div className="row">
-            {/* <ListComp list={this.listCompany}>Company</ListComp>
-            <ListComp list={this.listDiscover}>Discover</ListComp> */}
-            <GetInTouch>Get in Touch</GetInTouch>
-            <Subscribe>Subscribe to Our Newsletter</Subscribe>
-        </div>
         <div className="footerCopyRight">
-        FamiCare Company<br/> © Copy right FamiCare technology Co
+        © Copy right 阿尔法脑实验室
         </div>
       </div>
     );

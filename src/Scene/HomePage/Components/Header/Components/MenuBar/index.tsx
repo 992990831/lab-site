@@ -115,24 +115,24 @@ class MenuBar extends React.Component<MenuBarProps, MenuBarState> {
           <ul style={{fontSize:"14px"}}>
           <li className="moreOption">
               {/* <a href="javascript:void(0)">People</a> */}
-              <Link to={"/"} activeClassName="activeLink">Home</Link>
+              <Link to={"/"} activeClassName="activeLink">首页</Link>
             </li>
             <li className="moreOption">
               {/* <a href="javascript:void(0)">People</a> */}
-              <Link to={"/people"} activeClassName="activeLink">People</Link>
+              <Link to={"/people"} activeClassName="activeLink">团队概况</Link>
             </li>
             <li className="moreOption">
-              <Link to={"/research"} activeClassName="activeLink">Research</Link>
+              <Link to={"/research"} activeClassName="activeLink">研究方向</Link>
             </li>
             <li className="moreOption">
-              <Link to={"/press"} activeClassName="activeLink">News</Link>
+              <Link to={"/press"} activeClassName="activeLink">新闻</Link>
             </li>
            
             <li className="moreOption">
-              <Link to={"/publication"} activeClassName="activeLink">Publication</Link>
+              <Link to={"/publication"} activeClassName="activeLink">科研成果</Link>
             </li>
             <li className="moreOption">
-              <a href="/contact">Contact</a>
+              <a href="/contact">联系我们</a>
             </li>
             {/* <li className="moreOption">
               <Link to="/search?type=sale">{'Buy'}</Link>
