@@ -138,7 +138,7 @@ a.homeNavHandler.active {
 
 
 .sjtu-logo {
-  background-image: url("imgs/logo_sjtu.png");
+  background-image: url("imgs/logo_white_sjtu.png");
   background-size: contain;
   background-repeat: no-repeat;
   width: 20vw;
@@ -147,7 +147,7 @@ a.homeNavHandler.active {
 
 @media screen and (max-width: 767px ) {
   .sjtu-logo {
-    background-image: url("imgs/logo_sjtu.png");
+    background-image: url("imgs/logo_white_sjtu.png");
     background-size: contain;
     background-repeat: no-repeat;
     width: 40vw;
@@ -178,11 +178,10 @@ a.homeNavHandler.active {
   color: rgb(200, 20, 29);
   font-size: 1.5rem;
   font-weight: bold;
-  margin: 10px 0 5px 0;
+  margin: 5px 0 5px 0;
   padding-top: 1vw;
   padding-left: 5px;
   height: 4vw;
-  border-left: 2px #C8141D solid;
   font-family: fangsong;
 }
 
@@ -191,10 +190,9 @@ a.homeNavHandler.active {
     color: rgb(200, 20, 29);
     font-size: 1rem;
     font-weight: bold;
-    margin: 10px 0 5px 0;
+    margin: 5px 0 5px 0;
     padding-left: 5px;
     height: 30px;
-    border-left: 2px #C8141D solid;
     font-family: fangsong;
   }
 }
