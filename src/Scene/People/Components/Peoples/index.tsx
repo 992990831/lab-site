@@ -69,6 +69,38 @@ const getFaculty = () => {
         </div>
     );
 
+    peoples.push(
+        <div className="col-xs-12 col-sm-12 col-md-4 col-lg-4" key={2}>
+            <div className="singlePeople">
+                <a href="javascript:void(0)" className="Card">
+                    <div className="left">
+                        <div className="img-box">
+                            <div className="img">
+                                <StaticImage style={{display:"contents"}}
+                                    alt="team member"
+                                    src={`./images/profile/25_10_guanyue.jpg`}
+                                />
+                                {/* <img src={data.data.img} alt="" /> */}
+                            </div>
+                        </div>
+                    </div>
+                    <div className="right">
+                        <div className="name">
+                            <h2>管月</h2>
+                        </div>
+                        <div className="desc">
+                            <p>
+                                <span>
+                                    助理研究员<br />快速高分辨率磁共振成像，深度学习，多模态磁共振脑影像智慧诊疗。
+                                </span>
+                            </p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+    );
+
     return peoples;
 }
 
@@ -896,9 +928,9 @@ const PeopleGallery = () => {
                             <div className="left tutor">
                                 <div className="img-box">
                                     <div className="img">
-                                        <StaticImage style={{display:"contents"}}
+                                        <StaticImage style={{display:"contents"}} className='turtor-profile'
                                             alt="team member"
-                                            src={`./images/profile/2019-04-24-11-52-06-651326.jpg`}
+                                            src={`./images/profile/2019-04-24-11-52-06-651326.png`}
                                         />
                                         {/* <img src={data.data.img} alt="" /> */}
                                     </div>

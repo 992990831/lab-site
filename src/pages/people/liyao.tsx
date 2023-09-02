@@ -14,9 +14,9 @@ const IndexPage: React.FC<PageProps> = () => {
                             <div className="left tutor">
                                 <div className="img-box">
                                     <div className="img">
-                                        <StaticImage style={{ display: "contents" }}
+                                        <StaticImage style={{ display: "contents" }} className='turtor-profile'
                                             alt="team member"
-                                            src={`../../scene/people/components/peoples/images/profile/2019-04-24-11-52-06-651326.jpg`}
+                                            src={`../../scene/people/components/peoples/images/profile/2019-04-24-11-52-06-651326.png`}
                                         />
                                         {/* <img src={data.data.img} alt="" /> */}
                                     </div>
