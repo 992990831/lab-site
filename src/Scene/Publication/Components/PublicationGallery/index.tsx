@@ -1280,6 +1280,281 @@ const getPublicationList = () => {
             </div>
             </div>
 
+            {/* Section 33 */}
+            <div className='singlePublication' data-year='2017'>
+            <div style={{ padding: "17px" }}><div ><hr style={{ backgroundColor: "black", height: "1px" }} /></div></div>
+            <div className="publication">
+                <div className="left">
+                    <StaticImage
+                        alt="Publication"
+                        src="../../images/p-33.webp"
+                    />
+                </div>
+                <div className='right'>
+                    <div>
+                        <div>
+                            <h4>Intrinsic functional connectivity alteration of dorsal and rostral anterior cingulate cortex in obsessive-compulsive disorder: A resting fMRI study
+                            </h4>
+                        </div>
+                        <div>
+                            <p style={{ whiteSpace: "pre-wrap" }}>in <em>Neuroscience Letters</em> in 2017</p></div><div>
+                            <p style={{ whiteSpace: "pre-wrap" }}>by <strong>Zhang Z, Fan Q, Zhu Y, Tan L, Chen Y, Gao R, Zhang H, Li Y* and Xiao Z</strong>
+                            </p>
+                        </div>
+                        <div>
+                            <p style={{ whiteSpace: "pre-wrap" }}>
+                            Cortico–striato–thalamo–cortical (CSTC) circuit has been implicated in OCD pathophysiology by converging neuroimaging findings. The anterior cingulate cortex (ACC), as an important part within CSTC circuit, plays a critical role in OCD etiology. The ACC can be divided into dorsal and rostral parts anatomically, which are involved in cognitive process and emotional function, respectively. However, the diverse function of intrinsic signals from dorsal and rostral ACC regions remains unclear in OCD study. In this work, we applied resting-state functional magnetic resonance imaging (rs-fMRI) technology to investigate and differentiate the functional connectivity (FC) characteristics between dACC and rACC in unmedicated OCD patients. Also, the correlation between the altered FC and clinical symptom severity was analyzed. Decreased FC of rACC-DLPFC and increased FC between dACC and caudate were found. Moreover, the altered dACC-caudate FC was positively correlated with total Y-BOCS and compulsion score in OCD patients. Our findings implied the crossed function of dorsal and rostral circuits in the pathophysiologic mechanism of OCD. The dorsal cingulate-striatum functional pathway served as a potential biomarker for OCD symptomatology and merits further investigations.
+                            </p>
+                        </div>
+                        <a href="https://www.sciencedirect.com/science/article/abs/pii/S0304394017305062" style={{ whiteSpace: "pre-wrap" }}>Read more</a>
+                    </div>
+                </div>
+            </div>
+            </div>
+
+
+            {/* Section 34 */}
+            <div className='singlePublication' data-year='2017'>
+            <div style={{ padding: "17px" }}><div ><hr style={{ backgroundColor: "black", height: "1px" }} /></div></div>
+            <div className="publication">
+                <div className="left">
+                    <StaticImage
+                        alt="Publication"
+                        src="../../images/p-34.webp"
+                    />
+                </div>
+                <div className='right'>
+                    <div>
+                        <div>
+                            <h4>Hemodynamic effects of intraoperative anesthetics administration in photothrombotic stroke model: a study using laser speckle imaging
+                            </h4>
+                        </div>
+                        <div>
+                            <p style={{ whiteSpace: "pre-wrap" }}>in <em>BMC Neuroscience</em> in 2017</p></div><div>
+                            <p style={{ whiteSpace: "pre-wrap" }}>by <strong>Lu H, Li Y*, Bo B, Yuan L, Lu X, Li H, and Tong S</strong>
+                            </p>
+                        </div>
+                        <div>
+                            <p style={{ whiteSpace: "pre-wrap" }}>
+                                <p>
+                                Background
+                                Previous neuroimaging studies have shown the hemodynamic effect of either preconditioning or postconditioning anesthesia in ischemic stroke model. However, the anesthetic effect in hemodynamics during and immediately after the stroke modeling surgery remains unknown due to the lack of appropriate anesthesia-free stroke model and intraoperative imaging technology. In the present study, we utilized our recently developed photothrombotic model of focal cerebral ischemia in conscious and freely moving rats, and investigated transient hemodynamic changes with or without isoflurane administration. Laser speckle imaging was applied to acquire real-time two-dimensional full-field cerebral blood flow (CBF) information throughout the surgical operations and early after.
+                                </p>
+                                <p>
+                                Results
+                                Significantly larger CBF reduction area was observed in conscious rats from 8 min immediately after the onset of stroke modeling, compared with anesthetized rats. Stroke rats without isoflurane administration also showed larger lesion volume identified by magnetic resonance imaging 3 h post occlusion (58.9%), higher neurological severity score 24 h post occlusion (28.3%), and larger infarct volume from 2,3,5-triphenyltetrazolium chloride staining 24 h post occlusion (46.9%).
+                                </p>
+                                <p>
+                                Conclusions
+                                Our results demonstrated that the hemodynamic features were affected by anesthetics at as early as during the stroke induction. Also, our findings about the neuroprotection of intraoperative anesthetics administration bring additional insights into understanding the translational difficulty in stroke research.
+                                </p>                            
+                            </p>
+                        </div>
+                        <a href="https://bmcneurosci.biomedcentral.com/articles/10.1186/s12868-016-0327-y" style={{ whiteSpace: "pre-wrap" }}>Read more</a>
+                    </div>
+                </div>
+            </div>
+            </div>
+
+            {/* Section 35 */}
+            <div className='singlePublication' data-year='2016'>
+            <div style={{ padding: "17px" }}><div ><hr style={{ backgroundColor: "black", height: "1px" }} /></div></div>
+            <div className="publication">
+                <div className="left">
+                    <StaticImage
+                        alt="Publication"
+                        src="../../images/p-35.webp"
+                    />
+                </div>
+                <div className='right'>
+                    <div>
+                        <div>
+                            <h4>Functional lateralization in cingulate cortex predicts motor recovery after basal ganglia stroke
+                            </h4>
+                        </div>
+                        <div>
+                            <p style={{ whiteSpace: "pre-wrap" }}>in <em>Neuroscience Letters</em> in 2016</p></div><div>
+                            <p style={{ whiteSpace: "pre-wrap" }}>by <strong>Li Y, Chen Z, Su X, Zhang X, Wang P, Zhu Y, Xu Q, Xu J and Tong S</strong>
+                            </p>
+                        </div>
+                        <div>
+                            <p style={{ whiteSpace: "pre-wrap" }}>
+                            The basal ganglia (BG) is involved in higher order motor control such as movement planning and execution of complex motor synergies. Neuroimaging study on stroke patients specifically with BG lesions would help to clarify the consequence of BG damage on motor control. In this paper, we performed a longitudinal study in the stroke patients with lesions in BG regions across three motor recovery stages, i.e., less than 2week (Session 1), 1-3m (Session 2) and more than 3m (Session 3). The patients showed an activation shift from bilateral hemispheres during early sessions (&lt;3m) to the ipsilesional cortex in late session (&gt;3m), suggesting a compensation effect from the contralesional hemisphere during motor recovery. We found that the lateralization of cerebellum(CB) for affected hand task correlated with patients' concurrent Fugl-Meyer index (FMI) in Session 2. Moreover, the cingulate cortex lateralization index in Session 2 was shown to significantly correlate with subsequent FMI change between Session 3 and Session 2, which serves as a prognostic marker for motor recovery. Our findings consolidated the close interactions between BG and CB during the motor recovery after stroke. The dominance of activation in contralateral cingulate cortex was associated with a better motor recovery, suggesting the important role of ipsilesional attention modulation in the early stage after BG stroke.                        
+                            </p>
+                        </div>
+                        <a href="https://pubmed.ncbi.nlm.nih.gov/26742641/" style={{ whiteSpace: "pre-wrap" }}>Read more</a>
+                    </div>
+                </div>
+            </div>
+            </div>
+
+            {/* Section 36 */}
+            <div className='singlePublication' data-year='2016'>
+            <div style={{ padding: "17px" }}><div ><hr style={{ backgroundColor: "black", height: "1px" }} /></div></div>
+            <div className="publication">
+                <div className="left">
+                    <StaticImage
+                        alt="Publication"
+                        src="../../images/p-36.webp"
+                    />
+                </div>
+                <div className='right'>
+                    <div>
+                        <div>
+                            <h4>Altered neuronal spontaneous activity correlates with glutamate concentration in medial prefrontal cortex of major depressed females: an fMRI-MRS study
+                            </h4>
+                        </div>
+                        <div>
+                            <p style={{ whiteSpace: "pre-wrap" }}>in <em>Journal of Affective Disorders</em> in 2016</p></div><div>
+                            <p style={{ whiteSpace: "pre-wrap" }}>by <strong>Zhang X, Tang Y, Maletic-Savatice M, Sheng J, Zhang X, Zhu Y, Zhang T, Tong S, Wang J and Li Y*</strong>
+                            </p>
+                        </div>
+                        <div>
+                            <p style={{ whiteSpace: "pre-wrap" }}>
+                                <p>
+                                Background: Major depressive disorder (MDD) is twice more prevalent in females than in males. Yet, there have only been a few studies on the functional brain activity in female MDD patients and the detailed mechanisms underlying their neurobiology merit further investigations. In the present work, we used combined fMRI-MRS methods to investigate the altered intrinsic neuronal activity and its association with neurotransmitter concentration in female MDD patients.
+                                </p>
+                                <p>
+                                Methods: The whole brain amplitude of low frequency fluctuation (ALFF) analysis using resting state functional magnetic resonance imaging (fMRI) was performed to explore the alteration of intrinsic neuronal signals in MDD females (n=11) compared with female healthy controls (n=11). With a specific interest in the medial prefrontal cortex (mPFC) area, we quantified the concentration of amino acid neurotransmitters including GABA ((r-aminobutyric acid)), Glu (Glutamate), and Glx (Glutamate + Glutamine) using (1)H-MRS technology. Moreover, we conducted Pearson correlation analysis between the ALFF value and neurotransmitter concentration to find out the functional-biochemical relation in mPFC area. The relationship between the metabolites concentration and MDD symptomatology was also examined through Spearman correlation analysis.
+                                </p>
+                                <p>
+                                Results: We found that the female MDD patients showed increased neuronal spontaneous activity in left medial prefrontal cortex (mPFC) and left middle frontal cortex, with decreased ALFF level in right putamen and right middle temporal cortex (p&lt;0.01, Alphasim corrected). The ALFF in mPFC was shown positively correlated with Glu concentration in female MDD patients (r=0.67, p=0.023). The Glu concentration in mPFC was positively correlated with patients HAMA scores (r=0.641, p=0.033).
+                                </p>
+                                <p>
+                                Limitations: The relatively small sample size, metabolite information acquired only in mPFC and not all patients were unmedicated are the major limitations of our study.
+                                </p>
+                                <p>
+                                Conclusions: Using combined fMRI-MRS methods, we found increased spontaneous neuronal activity was correlated with Glu concentration in mPFC of female MDD patients. Other regions including left middle frontal gyrus, right putamen and middle temporal gyrus also showed altered spontaneous neuronal activities. The abnormal intrinsic neuronal activities in fronto-cortical regions shed light on the pathogenesis underlying MDD females. The multimodal resting-state neuroimaging technique served as a useful tool for functional-biochemical investigation of MDD pathophysiology.
+                                </p>
+                            </p>
+                        </div>
+                        <a href="https://pubmed.ncbi.nlm.nih.gov/27235818/" style={{ whiteSpace: "pre-wrap" }}>Read more</a>
+                    </div>
+                </div>
+            </div>
+            </div>
+
+            {/* Section 37 */}
+            <div className='singlePublication' data-year='2016'>
+            <div style={{ padding: "17px" }}><div ><hr style={{ backgroundColor: "black", height: "1px" }} /></div></div>
+            <div className="publication">
+                <div className="left">
+                    <StaticImage
+                        alt="Publication"
+                        src="../../images/p-37.webp"
+                    />
+                </div>
+                <div className='right'>
+                    <div>
+                        <div>
+                            <h4>Altered intrinsic insular activity predicts symptom severity in unmedicated obsessive-compulsive disorder patients: a resting state functional magnetic resonance imaging study
+                            </h4>
+                        </div>
+                        <div>
+                            <p style={{ whiteSpace: "pre-wrap" }}>in <em>BMC Psychiatry</em> in 2016</p></div><div>
+                            <p style={{ whiteSpace: "pre-wrap" }}>by <strong>Zhu Y, Fan Q, Zhang H, Qiu J, Tan L, Xiao Z, Tong S, Chen J and Li Y*</strong>
+                            </p>
+                        </div>
+                        <div>
+                            <p style={{ whiteSpace: "pre-wrap" }}>
+                                <p>
+                                Background: Previous neuroimaging data indicated that the dysfunction in cortico-striato-thalamo-cortical (CSTC) circuit contributed to the neuropathological mechanism of obsessive-compulsive disorder (OCD). Whereas, emerging work has shown that the pathophysiology of OCD might be related to more widely distributed large-scale brain systems including limbic system and the salience network. This study aims to investigate the aberrant spontaneous neuronal activity within the whole brain, and its association with the symptom severity for unmedicated OCD patients.
+                                </p>
+                                <p>
+                                Method: Twenty-eight unmedicated OCD adults and twenty-eight matched healthy controls were recruited for a resting state functional magnetic resonance imaging (fMRI) study. The amplitude of low-frequency fluctuation (ALFF) analysis over whole brain was performed to examine the intrinsic cerebral activity of subjects. In addition, we conducted the voxel-based Pearson's correlative analysis to probe into the relationship between ALFF values and symptom severity for OCD patients.
+                                </p>
+                                <p>
+                                Results: Our results showed that OCD patients had increased ALFF measures in the left frontopolar cortex and left orbital frontal cortex (OFC), with decreased ALFF values in the right insula. Moreover, the right insular intrinsic activity was significantly correlated with total YBOCS score (r = 0.611, p = 0.002) and compulsion score (r = 0.640, p = 0.001) for OCD patients.
+                                </p>
+                                <p>
+                                Conclusion: The results showed abnormal intrinsic neuronal activity within CSTC circuit and salience network of OCD patients. Our finding of aberrant insular activity advanced the understanding of OCD pathophysiology beyond the traditional CSTC circuit. To the best of our knowledge, it is the first finding about a reduced insular activity at the resting state for unmedicated OCD patients, which might serve as an informative biomarker for OCD pathophysiology.
+                                </p>
+                            </p>
+                        </div>
+                        <a href="https://pubmed.ncbi.nlm.nih.gov/27084762/" style={{ whiteSpace: "pre-wrap" }}>Read more</a>
+                    </div>
+                </div>
+            </div>
+            </div>
+
+            {/* Section 38 */}
+            <div className='singlePublication' data-year='2016'>
+            <div style={{ padding: "17px" }}><div ><hr style={{ backgroundColor: "black", height: "1px" }} /></div></div>
+            <div className="publication">
+                <div className="left">
+                    <StaticImage
+                        alt="Publication"
+                        src="../../images/p-38.webp"
+                    />
+                </div>
+                <div className='right'>
+                    <div>
+                        <div>
+                            <h4>Plastic Change along the Intact Crossed Pathway in Acute Phase of Cerebral Ischemia Revealed by Optical Intrinsic Signal Imaging
+                            </h4>
+                        </div>
+                        <div>
+                            <p style={{ whiteSpace: "pre-wrap" }}>in <em>Neural Plasticity</em> in 2016</p></div><div>
+                            <p style={{ whiteSpace: "pre-wrap" }}>by <strong>Guo X, He Y, Lu H, Li Y, Su X, Jiang Y and Tong S</strong>
+                            </p>
+                        </div>
+                        <div>
+                            <p style={{ whiteSpace: "pre-wrap" }}>
+                            The intact crossed pathway via which the contralesional hemisphere responds to the ipsilesional somatosensory input has shown to be affected by unilateral stroke. The aim of this study was to investigate the plasticity of the intact crossed pathway in response to different intensities of stimulation in a rodent photothrombotic stroke model. Using optical intrinsic signal imaging, an overall increase of the contralesional cortical response was observed in the acute phase (&lt;=48h) after stroke. In particular, the contralesional hyperactivation is more prominent under weak stimulations, while a strong stimulation would even elicit a depressed response. The results suggest a distinct stimulation-response pattern along the intact crossed pathway after stroke. We speculate that the contralesional hyperactivation under weak stimulations was due to the reorganization for compensatory response to the weak ipsilateral somatosensory input.
+                            </p>
+                        </div>
+                        <a href="https://pubmed.ncbi.nlm.nih.gov/27144032/" style={{ whiteSpace: "pre-wrap" }}>Read more</a>
+                    </div>
+                </div>
+            </div>
+            </div>
+
+             {/* Section 39 */}
+             <div className='singlePublication' data-year='2015'>
+            <div style={{ padding: "17px" }}><div ><hr style={{ backgroundColor: "black", height: "1px" }} /></div></div>
+            <div className="publication">
+                <div className="left">
+                    <StaticImage
+                        alt="Publication"
+                        src="../../images/p-39.webp"
+                    />
+                </div>
+                <div className='right'>
+                    <div>
+                        <div>
+                            <h4>Decreased thalamic glutamate level in unmedicated adult obsessive compulsive disorder patients detected by proton magnetic resonance spectroscopy
+                            </h4>
+                        </div>
+                        <div>
+                            <p style={{ whiteSpace: "pre-wrap" }}>in <em>Journal of Affective Disorders</em> in 2015</p></div><div>
+                            <p style={{ whiteSpace: "pre-wrap" }}>by <strong>Zhu Y, Fan Q, Han X, Zhang H, Chen J, Wang Z, Zhang Z, Tan L, Xiao Z, Tong S, Maletic-Savatic M and Li Y*</strong>
+                            </p>
+                        </div>
+                        <div>
+                            <p style={{ whiteSpace: "pre-wrap" }}>
+                                <p>
+                                Background: Previous neuroimaging studies implied that the dysfunction of cortico-striato-thalamo-cortical (CSTC) circuit served as the neural basis for the pathophysiology of obsessive-compulsive disorder (OCD). The imbalances in neuronal metabolite and neurotransmitter within CSTC circuit have been shown as the leading reasons of the OCD onset. The aim of this study is to investigate the metabolic alterations, especially the glutamatergic signal dysfunction within CSTC circuit, and the relationships between neural metabolites and the symptom severity of OCD patients.
+                                </p>
+                                <p>
+                                Methods: Single voxel magnetic resonance spectroscopy (MRS) was conducted in medial prefrontal cortex (mPFC) and bilateral thalamus areas for thirteen unmedicated adult OCD patients with age-, gender-, and education-matched healthy controls. Quantification and multivariate analysis were performed to identify vital metabolic biomarkers for patients and healthy controls group differentiation. Moreover, we performed Spearman׳s rank correlation analysis for OCD patients to examine the relationship between the metabolite concentration level and OCD symptomatology.
+                                </p>
+                                <p>
+                                Results: Patients with OCD showed significantly decreased glutamate level in mPFC (p=0.021) and right thalamus (p=0.039), and significantly increased choline compounds in left thalamus (p=0.044).The glutamate in right thalamus was shown as the most important metabolite for group separation from multivariate analysis (Q(2)=0.134) and was significantly correlated with the patients׳ compulsion scores (Spearman r=-0.674, p=0.016).
+                                </p>
+                                <p>
+                                Limitations: Limited sample size, the use of creatine and phosphocreatine (Cr) ratios rather than absolute concentrations and unresolved glutamine (Gln) are limitations of the present study.
+                                </p>
+                                <p>
+                                Conclusion: Our study results consolidated the hypothesis about glutamatergic signaling dysfunction in OCD. To our knowledge, it is the first finding about a reduced thalamic glutamate level in adult unmedicated OCD patients. The dysregulation of glutamate serves as a potential target for the OCD pharmacotherapy and the detailed mechanisms underlying the glutamate alterations within CSTC circuits merit further investigations.
+                                </p>
+                            </p>
+                        </div>
+                        <a href="https://pubmed.ncbi.nlm.nih.gov/25819113/" style={{ whiteSpace: "pre-wrap" }}>Read more</a>
+                    </div>
+                </div>
+            </div>
+            </div>
+
         </>
 
     )
@@ -1296,15 +1571,11 @@ const PublicationGallery = () => {
         let publications = document.querySelectorAll('.singlePublication');
         publications.forEach(pub => {
             let year = Number(pub.getAttribute("data-year"));
-            if(year==0)
-            {
-                return;
-            }
-
+           
             switch(index)
             {
                 case 1: 
-                    if(year >= 2021) {
+                    if(year >= 2021 || year==0) {
                         (pub as HTMLDivElement).style.setProperty("display", "block");
                     }
                     else {
@@ -1328,7 +1599,7 @@ const PublicationGallery = () => {
                     }
                 break;
                 case 4: 
-                    if(year <= 2018) {
+                    if(year <= 2018 && year > 2010) {
                         (pub as HTMLDivElement).style.setProperty("display", "block");
                     }
                     else {
@@ -1353,7 +1624,7 @@ const PublicationGallery = () => {
                     <div className={selectedItem == 1? 'item-selected': 'item-unselected'} onClick={() => onFilterClick(1)}>2021~至今</div>
                     <div className={selectedItem == 2? 'item-selected': 'item-unselected'} onClick={() => onFilterClick(2)}>2020</div>
                     <div className={selectedItem == 3? 'item-selected': 'item-unselected'} onClick={() => onFilterClick(3)}>2019</div>
-                    <div className={selectedItem == 4? 'item-selected': 'item-unselected'} onClick={() => onFilterClick(4)}>2010~   2018</div>
+                    <div className={selectedItem == 4? 'item-selected': 'item-unselected'} onClick={() => onFilterClick(4)}>2010~2018</div>
                 </div>
                 {
                     getPublicationList()
