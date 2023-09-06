@@ -1,5 +1,6 @@
 import * as React from 'react';
 import './style.css';
+import Footer from '../../../HomePage/Components/Footer';
 import { StaticImage } from 'gatsby-plugin-image'
 
 // const publicationData: any[] = [{
@@ -1636,6 +1637,9 @@ const PublicationGallery = () => {
                         </div>
                     );
                 })} */}
+            </div>
+            <div className="footerWrapper" style={{marginTop:"20px"}}>
+            <Footer />
             </div>
         </div>
         // <>
