@@ -1,5 +1,6 @@
 import * as React from 'react';
 import './style.css';
+import { StaticImage } from 'gatsby-plugin-image'
 
 const researchData: any[] = [{
     name: '实验室最新成果',
@@ -48,7 +49,10 @@ const SingleResearch = (data: any) => {
         <div className="singleHouse">
             <a href="#" className="card">
                 <div className="figure">
-                    <img src={data.data.img} alt="image" style={{height: "25vh", objectFit: "cover"}} />
+                    <StaticImage className='news'
+                        alt="team member"
+                        src={`../../images/202012252229031997753.webp`}
+                    />
                     <div className="figCaption">
                         <div>成果描述：XXXXXXXXXXX</div>
                         {/* <span className="icon-eye"> 200</span>
@@ -77,14 +81,9 @@ const ResearchGallery = () => {
     return (
         <div className="listProperty">
             <div className="row listPropertyContent">
-                <h1 style={{ textAlign: "center" }}>最新研究成果</h1>
-                {researchData.map((data, index) => {
-                    return (
-                        <div className="col-xs-12 col-sm-12 col-md-4 col-lg-4" key={index}>
-                            <SingleResearch data={data} />
-                        </div>
-                    );
-                })}
+                <h1 style={{ textAlign: "center" }}>研究方向</h1>
+                
+                <h2>全脑高分辨多分子一体成像；多模态跨尺度脑图谱；脑卒中精准诊断；AD早期预警及认知预测；脑肿瘤精准诊断；精神疾病影像引导精准调控；</h2>
             </div>
         </div>
         // <>

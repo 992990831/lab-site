@@ -22,7 +22,20 @@
 
 .publication .right {
   margin-left: 17px;
-  padding-right: 10%;
+  padding-right: 17px;
+}
+
+.publication .full {
+  margin-left: 17px;
+  margin-right: 17px;
+}
+
+.publication .full a{
+  color: #6577BB;
+  text-decoration: none;
+  cursor: pointer;
+  border: #6577BB 2px solid;
+  padding: 8px 15px;
 }
 
 .publication .right a {
@@ -31,4 +44,35 @@
   cursor: pointer;
   border: #6577BB 2px solid;
   padding: 8px 15px;
+  display: -webkit-inline-box;
+  margin-top:5px;
+}
+
+.news-filter {
+  display: flex;
+  justify-content: center;
+}
+
+.news-filter .item-selected {
+  width: 95px;
+  text-align: center;
+  border: 2px solid orange;
+  background-color: orange;
+  margin-left: 5px;
+  color: white;
+  font-size: 0.9rem;
+  padding-top: 5px;
+  cursor: pointer;
+}
+
+.news-filter .item-unselected {
+  width: 95px;
+  text-align: center;
+  border: 2px solid rgb(158, 157, 155);
+  background-color: white;
+  margin-left: 5px;
+  color: #616164;
+  font-size: 0.9rem;
+  padding-top: 5px;
+  cursor: pointer;
 }

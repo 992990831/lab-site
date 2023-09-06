@@ -35,6 +35,7 @@ a.card, div.card {
   margin-bottom: 20px;
   cursor: pointer;
   text-decoration: none;
+  height: 30vh;
 }
 
 .figure {
@@ -230,4 +231,8 @@ a.card ul.cardFeat li, div.card ul.cardFeat li {
 }
 a.card ul.cardFeat li span, div.card ul.cardFeat li span {
   color: #999;
+}
+
+.news {
+  height: 20vh;
 }

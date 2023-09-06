@@ -7,7 +7,7 @@ const IndexPage: React.FC<PageProps> = () => {
     return (
       <>
        <Header></Header>
-       <div style={{backgroundColor:"#f6f7f8", marginTop:"-80vh", height:"100vh", position:"relative"}}>
+       <div style={{backgroundColor:"white", marginTop:"-80vh", height:"100vh", position:"relative"}}>
           <PublicationGallery></PublicationGallery>
         </div>
       </>

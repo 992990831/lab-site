@@ -31,11 +31,11 @@ const getNews = () => {
             <div className="col-xs-12 col-sm-12 col-md-4 col-lg-4">
                 <div className="singleHouse">
                 <a href="/press" className="card">
-                    <StaticImage
+                    <StaticImage className='news'
                         alt="team member"
-                        src={`./images/20220112_144308_975_1.jpg`}
+                        src={`../../images/20230619_151813_772.webp`}
                     />
-                    <h2>{"自然科学研究院举办学科交叉研讨会"}</h2>
+                    <h2 style={{whiteSpace:"pre-wrap"}}>{"上海交大李瑶团队在国际磁共振顶级会议ISMRM上获W. S. Moore Award"}</h2>
                     <div className="cardAddress"><span className="icon-pointer" />
                         {"2022年01月12日"}
                     </div>     
@@ -45,18 +45,18 @@ const getNews = () => {
             <div className="col-xs-12 col-sm-12 col-md-4 col-lg-4">
                 <div className="singleHouse">
                 <a href="/press" className="card">
-                    <StaticImage
+                    <StaticImage className='news'
                         alt="team member"
-                        src={`./images/20220112_144123_596_1.jpg`}
+                        src={`../../images/202012252229031997753.webp`}
                     />
-                    <h2>{"自然科学研究院举办学科交叉研讨会"}</h2>
+                    <h2 style={{whiteSpace:"pre-wrap"}}>{"李瑶教授课题组在急性脑卒中全脑代谢成像领域取得成果以封面文章发表于《Brain》"}</h2>
                     <div className="cardAddress"><span className="icon-pointer" />
                         {"2022年01月12日"}
                     </div>     
                     </a>
                 </div>
             </div>
-            <div className="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+            {/* <div className="col-xs-12 col-sm-12 col-md-4 col-lg-4">
                 <div className="singleHouse">
                 <a href="/press" className="card">
                     <StaticImage
@@ -69,7 +69,7 @@ const getNews = () => {
                     </div>     
                     </a>
                 </div>
-            </div>
+            </div> */}
         </>
     )
 }

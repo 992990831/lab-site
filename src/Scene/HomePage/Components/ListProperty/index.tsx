@@ -56,7 +56,7 @@ class ListProperty extends React.Component<{}, {}> {
                   <a href="/people/" >
                     <StaticImage
                       alt="team member"
-                      src={`./images/64f32f97aca34f8e0daadc111693659031367.png`}
+                      src={`./images/64f32f97aca34f8e0daadc111693659031367.webp`}
                     />
                   </a>
                     
@@ -97,44 +97,31 @@ class ListProperty extends React.Component<{}, {}> {
                 <div className="singleHouse">
                 <a href="/press" className="card">
                     <StaticImage
-                        alt="team member"
-                        src={`./images/20220112_144308_975.jpg`}
+                        alt="team member" className='news'
+                        src={`../../../News/images/20230619_151813_772.webp`}
                     />
-                    <h2>{"自然科学研究院举办学科交叉研讨会"}</h2>
+                    <h2 style={{whiteSpace:"pre-wrap"}}>{"上海交大李瑶团队在国际磁共振顶级会议ISMRM上获W. S. Moore Award"}</h2>
                     <div className="cardAddress"><span className="icon-pointer" />
-                        {"2022年01月12日"}
+                        {"2023年06月21日"}
                     </div>     
                     </a>
                 </div>
             </div>
             <div className="col-xs-12 col-sm-12 col-md-4 col-lg-4">
-                <div className="singleHouse">
+              <div className="singleHouse">
                 <a href="/press" className="card">
-                    <StaticImage
-                        alt="team member"
-                        src={`./images/20220112_144123_596.jpg`}
-                    />
-                    <h2>{"自然科学研究院举办学科交叉研讨会"}</h2>
-                    <div className="cardAddress"><span className="icon-pointer" />
-                        {"2022年01月12日"}
-                    </div>     
-                    </a>
-                </div>
+                  <StaticImage className='news'
+                    alt="team member"
+                    src={`../../../News/images/202012252229031997753.webp`}
+                  />
+                  <h2 style={{whiteSpace:"pre-wrap"}}>{"李瑶教授课题组在急性脑卒中全脑代谢成像领域取得成果以封面文章发表于《Brain》"}</h2>
+                  <div className="cardAddress"><span className="icon-pointer" />
+                    {"2020年12月15日"}
+                  </div>
+                </a>
+              </div>
             </div>
-            <div className="col-xs-12 col-sm-12 col-md-4 col-lg-4">
-                <div className="singleHouse">
-                <a href="/press" className="card">
-                    <StaticImage
-                        alt="team member"
-                        src={`./images/20220112_144412_474.jpg`}
-                    />
-                    <h2>{"自然科学研究院举办学科交叉研讨会"}</h2>
-                    <div className="cardAddress"><span className="icon-pointer" />
-                        {"2022年01月12日"}
-                    </div>     
-                    </a>
-                </div>
-            </div>
+            
           {/* {houseData.map((data, index) => {
             return (
               <div className="col-xs-12 col-sm-12 col-md-4 col-lg-4" key={index}>
