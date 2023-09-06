@@ -25,58 +25,6 @@ const researchData: any[] = [{
     img: 'https://ciiic.sjtu.edu.cn/static/upload/image/20230626/1687791555578576.jpg'
 }];
 
-const SingleResearch = (data: any) => {
-    return (
-        // <div className="singleHouse">
-        //     <a href="#" className="card">
-        //         <div className="figure">
-        //             <img src={data.data.img} alt="image" />
-        //             {/* <div className="figCaption">
-        //           <div>$1,550,000</div>
-        //           <span className="icon-eye"> 200</span>
-        //           <span className="icon-heart"> 54</span>
-        //           <span className="icon-bubble"> 13</span>
-        //         </div> */}
-        //             <div className="figView"><span className="icon-eye" /></div>
-        //             {/* <div className="figType">FOR SALE</div> */}
-        //         </div>
-        //         <h2>{data.data.name}</h2>
-        //         <div className="cardAddress"><span className="icon-pointer" />
-        //             Shanghai Xuhui District HuaShan Rd.
-        //         </div>
-        //     </a>
-        // </div>
-        <div className="singleHouse">
-            <a href="#" className="card">
-                <div className="figure">
-                    <StaticImage className='news'
-                        alt="team member"
-                        src={`../../images/202012252229031997753.webp`}
-                    />
-                    <div className="figCaption">
-                        <div>成果描述：XXXXXXXXXXX</div>
-                        {/* <span className="icon-eye"> 200</span>
-                        <span className="icon-heart"> 54</span>
-                        <span className="icon-bubble"> 13</span> */}
-                    </div>
-                    <div className="figView"><span className="icon-eye" /></div>
-                    {/* <div className="figType">FOR SALE</div> */}
-                </div>
-                <h2>{data.data.name}</h2>
-                <div className="cardAddress"><span className="icon-pointer" />
-                    {data.data.address}
-                </div>
-                {/* <ul className="cardFeat">
-            <li><span className="fa fa-moon-o" /> {this.props.data.beds}</li>
-            <li><span className="icon-drop" /> {this.props.data.toilets}</li>
-            <li><span className="icon-frame" /> {this.props.data.square} Sq Ft</li>
-          </ul> */}
-            </a>
-        </div>
-
-    )
-}
-
 const ResearchGallery = () => {
     return (
         <div className="listProperty">
