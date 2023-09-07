@@ -56,20 +56,6 @@ const getNews = () => {
                     </a>
                 </div>
             </div>
-            {/* <div className="col-xs-12 col-sm-12 col-md-4 col-lg-4">
-                <div className="singleHouse">
-                <a href="/press" className="card">
-                    <StaticImage
-                        alt="team member"
-                        src={`./images/20220112_144412_474_1.jpg`}
-                    />
-                    <h2>{"自然科学研究院举办学科交叉研讨会"}</h2>
-                    <div className="cardAddress"><span className="icon-pointer" />
-                        {"2022年01月12日"}
-                    </div>     
-                    </a>
-                </div>
-            </div> */}
         </>
     )
 }

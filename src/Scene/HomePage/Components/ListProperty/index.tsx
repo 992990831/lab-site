@@ -5,29 +5,6 @@ import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a lo
 import { Carousel } from 'react-responsive-carousel';
 import { StaticImage } from 'gatsby-plugin-image'
 
-// const houseData: any[] = [{
-//   name: '自然科学研究院举办学科交叉研讨会',
-//   address: '2022年01月12日 ',
-//   beds: 3,
-//   toilets: 2,
-//   square: 20,
-//   img: 'https://992990831.github.io/static/20220112_144308_975.jpg'
-// }, {
-//   name: '自然科学研究院举办学科交叉研讨会',
-//   address: '2022年01月12日 ',
-//   beds: 3,
-//   toilets: 2,
-//   square: 20,
-//   img: 'https://992990831.github.io/static/20220112_144123_596.jpg'
-// }, {
-//   name: '自然科学研究院举办学科交叉研讨会',
-//   address: '2022年01月12日 ',
-//   beds: 3,
-//   toilets: 2,
-//   square: 20,
-//   img: 'https://992990831.github.io/static/20220112_144412_474.jpg'
-// }];
-
 class ListProperty extends React.Component<{}, {}> {
   render() {
     return (
@@ -99,22 +76,6 @@ class ListProperty extends React.Component<{}, {}> {
             </Carousel>
             <div style={{height:"3vh"}}></div>
             <h1 style={{textAlign:"center"}}>新闻</h1>
-            {/* <div className="col-xs-12 col-sm-12 col-md-4 col-lg-4">
-                <div className="singleHouse">
-                <a href="javascript:void(0)" className="card">
-                    <div className="figure">
-                      <StaticImage
-                          alt="team member"
-                          src={`./images/20220112_144308_975.jpg`}
-                      />
-                    </div>
-                    <h2>{"自然科学研究院举办学科交叉研讨会"}</h2>
-                    <div className="cardAddress"><span className="icon-pointer" />
-                        {"2022年01月12日"}
-                    </div>     
-                    </a>
-                </div>
-            </div> */}
              <div className="col-xs-12 col-sm-12 col-md-4 col-lg-4">
                 <div className="singleHouse">
                 <a href="/press" className="card">
