@@ -32,16 +32,16 @@ interface MenuBarProps {
   //selectedMenuItem: MenuItemType;
 }
 
-interface MenuBarState {  
+interface MenuBarState {
   isHandlerActive: boolean;
-  rlFormStatus?: 'login' | 'register'; 
+  rlFormStatus?: 'login' | 'register';
   isLogin: boolean;
 }
 
 class MenuBar extends React.Component<MenuBarProps, MenuBarState> {
   constructor(props: MenuBarProps) {
     super(props);
-    this.state = {      
+    this.state = {
       isHandlerActive: false,
       isLogin: props.isLogin
     };
@@ -86,55 +86,57 @@ class MenuBar extends React.Component<MenuBarProps, MenuBarState> {
     //   return (null);
     // }
     return (
-      <div className="menuBar">
-        <div className="langSelectorWrapper">
-          {/* {'Language Selector'} */}
-        </div>
-        <a href="/">
-          <div className="homeLogo osLight" style={{display:"flex"}}>
-            {/* <Icon name="home" size="2x" />  */}
-            <div className='sjtu-logo'></div>
-            <div className="lab-logo">阿尔法脑实验室
-              <div className='lab-logo-small'>Alpha Brain Lab</div>
+      <>
+        <div className='menu-bg-filter'></div>
+        <div className="menuBar">
+          <div className="langSelectorWrapper">
+            {/* {'Language Selector'} */}
+          </div>
+          <a href="/">
+            <div className="homeLogo osLight" style={{ display: "flex" }}>
+              {/* <Icon name="home" size="2x" />  */}
+              <div className='sjtu-logo'></div>
+              <div className="lab-logo">阿尔法脑实验室
+                <div className='lab-logo-small'>Alpha Brain Lab</div>
+              </div>
             </div>
-          </div>
-        </a>
-        <a 
-          href="#" 
-          className={'homeNavHandler visible-xs' + (this.state.isHandlerActive ? ' active' : '')} 
-          onClick={this.toggleHandler}
-        >
-          <div>
-            <div className="mobile-menu-btn"></div>
-            <div className="mobile-menu-btn"></div>
-            <div className="mobile-menu-btn"></div>
-          </div>
-          {/* <Icon name="bars" /> */}
-        </a>
-        <div className={'homeNav' + (this.state.isHandlerActive ? ' active' : '')} >
-          <ul style={{fontSize:"14px"}}>
-          <li className="moreOption">
-              {/* <a href="javascript:void(0)">People</a> */}
-              <Link to={"/"} activeClassName="activeLink">首页</Link>
-            </li>
-            <li className="moreOption">
-              {/* <a href="javascript:void(0)">People</a> */}
-              <Link to={"/people"} activeClassName="activeLink">团队概况</Link>
-            </li>
-            <li className="moreOption">
-              <Link to={"/research"} activeClassName="activeLink">研究方向</Link>
-            </li>
-            <li className="moreOption">
-              <Link to={"/press"} activeClassName="activeLink">新闻</Link>
-            </li>
-           
-            <li className="moreOption">
-              <Link to={"/publication"} activeClassName="activeLink">科研成果</Link>
-            </li>
-            <li className="moreOption">
-              <a href="/contact">联系我们</a>
-            </li>
-            {/* <li className="moreOption">
+          </a>
+          <a
+            href="#"
+            className={'homeNavHandler visible-xs' + (this.state.isHandlerActive ? ' active' : '')}
+            onClick={this.toggleHandler}
+          >
+            <div>
+              <div className="mobile-menu-btn"></div>
+              <div className="mobile-menu-btn"></div>
+              <div className="mobile-menu-btn"></div>
+            </div>
+            {/* <Icon name="bars" /> */}
+          </a>
+          <div className={'homeNav' + (this.state.isHandlerActive ? ' active' : '')} >
+            <ul style={{ fontSize: "14px" }}>
+              <li className="moreOption">
+                {/* <a href="javascript:void(0)">People</a> */}
+                <Link to={"/"} activeClassName="activeLink">首页</Link>
+              </li>
+              <li className="moreOption">
+                {/* <a href="javascript:void(0)">People</a> */}
+                <Link to={"/people"} activeClassName="activeLink">团队概况</Link>
+              </li>
+              <li className="moreOption">
+                <Link to={"/research"} activeClassName="activeLink">研究方向</Link>
+              </li>
+              <li className="moreOption">
+                <Link to={"/press"} activeClassName="activeLink">新闻</Link>
+              </li>
+
+              <li className="moreOption">
+                <Link to={"/publication"} activeClassName="activeLink">科研成果</Link>
+              </li>
+              <li className="moreOption">
+                <a href="/contact">联系我们</a>
+              </li>
+              {/* <li className="moreOption">
               <Link to="/search?type=sale">{'Buy'}</Link>
             </li>
             <li className="moreOption">
@@ -158,15 +160,17 @@ class MenuBar extends React.Component<MenuBarProps, MenuBarState> {
                 {'List a Property'}
               </div></Link>
             </li> */}
-          </ul>
-        </div>
-        {/* <RLForm 
+            </ul>
+          </div>
+          {/* <RLForm 
           type={this.state.rlFormStatus} 
           openRegisterForm={() => this.updateFormStatus('register')} 
           openLoginForm={() => this.updateFormStatus('login')}
           close={() => this.updateFormStatus()}
         /> */}
-      </div>
+        </div>
+      </>
+
     );
   }
 }

@@ -209,3 +209,18 @@ a.homeNavHandler.active {
     text-align: center;
   }
 }
+
+
+.menu-bg-filter {
+  height: 80px; 
+  width: 100vw; 
+  background-color: white; 
+  opacity: 0.8; 
+  position: absolute;
+}
+
+@media screen and (min-width: 992px ) {
+  .menu-bg-filter {
+    height: 120px; 
+  }
+}

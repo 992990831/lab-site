@@ -44,7 +44,7 @@ class ListProperty extends React.Component<{}, {}> {
                 <a href="/people/" >
                   <StaticImage
                       alt="team member"
-                      src={`./images/1693103660202.png`}
+                      src={`./images/1693103660202.webp`}
                   />
                 </a>
                 
@@ -67,7 +67,29 @@ class ListProperty extends React.Component<{}, {}> {
                   <a href="/people/" >
                     <StaticImage
                       alt="team member"
-                      src={`./images/193126014.png`}
+                      src={`./images/193126014.webp`}
+                    />
+                  </a>
+                  
+                    {/* <img src="./images/Lab+2+copy.jpg" /> */}
+                    {/* <p className="legend">Legend 3</p> */}
+                </div>
+                <div>
+                  <a href="/people/" >
+                    <StaticImage
+                      alt="team member"
+                      src={`./images/13_10_xuchang.webp`}
+                    />
+                  </a>
+                  
+                    {/* <img src="./images/Lab+2+copy.jpg" /> */}
+                    {/* <p className="legend">Legend 3</p> */}
+                </div>
+                <div>
+                  <a href="/people/" >
+                    <StaticImage
+                      alt="team member"
+                      src={`./images/7_10_IMG_6258.webp`}
                     />
                   </a>
                   
