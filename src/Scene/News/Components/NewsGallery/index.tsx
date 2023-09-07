@@ -30,21 +30,21 @@ const getNews = () => {
         <>
             <div className="col-xs-12 col-sm-12 col-md-4 col-lg-4">
                 <div className="singleHouse">
-                <a href="/press" className="card">
+                <a href="https://news.sjtu.edu.cn/jdzh/20230621/185023.html" className="card">
                     <StaticImage className='news'
                         alt="team member"
                         src={`../../images/20230619_151813_772.webp`}
                     />
                     <h2 style={{whiteSpace:"pre-wrap"}}>{"上海交大李瑶团队在国际磁共振顶级会议ISMRM上获W. S. Moore Award"}</h2>
                     <div className="cardAddress"><span className="icon-pointer" />
-                        {"2022年01月12日"}
+                        {"2023年06月21日"}
                     </div>     
                     </a>
                 </div>
             </div>
             <div className="col-xs-12 col-sm-12 col-md-4 col-lg-4">
                 <div className="singleHouse">
-                <a href="/press" className="card">
+                <a href="https://bme.sjtu.edu.cn/Web/Show/2335" className="card">
                     <StaticImage className='news'
                         alt="team member"
                         src={`../../images/202012252229031997753.webp`}
