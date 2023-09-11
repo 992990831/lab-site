@@ -96,8 +96,8 @@ class MenuBar extends React.Component<MenuBarProps, MenuBarState> {
             <div className="homeLogo osLight" style={{ display: "flex" }}>
               {/* <Icon name="home" size="2x" />  */}
               <div className='sjtu-logo'></div>
-              <div className="lab-logo">阿尔法脑实验室
-                <div className='lab-logo-small'>Alpha Brain Lab</div>
+              <div className="lab-logo">多模态脑影像及智能计算实验室
+                <div className='lab-logo-small'>MultimodAl neuroimaGing and iNtelligEnt compuTing lab (MAGNET)</div>
               </div>
             </div>
           </a>
