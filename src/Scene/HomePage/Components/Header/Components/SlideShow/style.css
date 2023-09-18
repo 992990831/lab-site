@@ -25,7 +25,7 @@
   background-repeat: no-repeat;
   opacity: 0;
   z-index: 0;
-  animation: imageAnimation 15s linear infinite 0s;
+  animation: imageAnimation 25s linear infinite 0s;
 }
 
 @keyframes imageAnimation {
@@ -49,53 +49,53 @@
 }
 
 .cbSlideshow li:nth-child(1) span {
-  background-image: url('imgs/artificial-intelligence-deep-learning-neural-networks-ai-1-removebg.webp');
+  background-image: url('imgs/5e1d5b77497a806f70c8909479ab242.webp');
 }
 
 
 .cbSlideshow li:nth-child(2) span {
-  background-image: url('imgs/instruments.webp');
-  animation-delay: 3s;
+  background-image: url('imgs/156f938a880f6bb2f6205e22b305659.webp');
+  animation-delay: 5s;
 }
 
 .cbSlideshow li:nth-child(3) span {
-  background-image: url('imgs/brain-stock-photo.webp');
-  animation-delay: 6s;
+  background-image: url('imgs/5505eeee5e516c550e07bfe299f07c5.webp');
+  animation-delay: 10s;
 }
 
 .cbSlideshow li:nth-child(5) span {
-  background-image: url('imgs/64f9115e3a9d6e16a45f55f91694044511021.webp');
-  animation-delay: 9s;
+  background-image: url('imgs/b34aadd341132d5b053a6711d9e5548.webp');
+  animation-delay: 15s;
 }
 
 .cbSlideshow li:nth-child(6) span {
-  background-image: url('imgs/R-C.webp');
-  animation-delay: 12s;
+  background-image: url('imgs/f61e0f78a911d77290cb025d927fe6c.webp');
+  animation-delay: 20s;
 }
 
 @media (min-width: 768px) {
   .cbSlideshow li:nth-child(1) span {
     background-size:cover;
-    background-image: url('imgs/artificial-intelligence-deep-learning-neural-networks-ai-1-removebg.webp');
+    background-image: url('imgs/5e1d5b77497a806f70c8909479ab242.webp');
   }
 
   .cbSlideshow li:nth-child(2) span {
     background-size:cover;
-    background-image: url('imgs/instruments-desktop.webp');
+    background-image: url('imgs/156f938a880f6bb2f6205e22b305659.webp');
   }
 
   .cbSlideshow li:nth-child(3) span {
     background-size:cover;
-    background-image: url('imgs/brain-stock-photo.webp');
+    background-image: url('imgs/5505eeee5e516c550e07bfe299f07c5.webp');
   }
 
   .cbSlideshow li:nth-child(5) span {
     background-size:cover;
-    background-image: url('imgs/lab-instruments.webp');
+    background-image: url('imgs/b34aadd341132d5b053a6711d9e5548.webp');
   }
 
   .cbSlideshow li:nth-child(6) span {
     background-size:cover;
-    background-image: url('imgs/R-C.webp');
+    background-image: url('imgs/f61e0f78a911d77290cb025d927fe6c.webp');
   }
 }

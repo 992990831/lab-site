@@ -14,6 +14,33 @@ const getFaculty = () => {
                             <div className="img">
                                 <StaticImage
                                     alt="team member"
+                                    src={`./images/profile/16_10_IMG_3990.jpeg`}
+                                />
+                                {/* <img src={data.data.img} alt="" /> */}
+                            </div>
+                        </div>
+                    </div>
+                    <div className="right">
+                        <div className="name">
+                            <h2>孟子瑜</h2>
+                        </div>
+                        <div className="desc">
+                            <p>
+                                <span>
+                                    博士后<br />自旋回波序列大脑快速定量T2成像重建算法及临床应用；融合生物先验和多模态磁共振脑影像的脑疾病模型。
+                                </span>
+                            </p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div className="singlePeople">
+                <a href="javascript:void(0)" className="Card">
+                    <div className="left">
+                        <div className="img-box">
+                            <div className="img">
+                                <StaticImage
+                                    alt="team member"
                                     src={`./images/profile/11_10_ZiwenKe.png`}
                                 />
                                 {/* <img src={data.data.img} alt="" /> */}
@@ -784,46 +811,6 @@ const getGraduated = () => {
                                     <div className='student-mobile'>
                                         <br />pengcheng.yukaka@gmail.com
                                         <br />2018.09~2021.06
-                                    </div>
-                                </span>
-                            </p>
-                        </div>
-                    </div>
-                </a>
-            </div>
-        </div>
-    );
-
-    peoples.push(
-        <div className="col-xs-12 col-sm-12 col-md-4 col-lg-4">
-            <div className="singlePeople">
-                <a href="javascript:void(0)" className="Card">
-                    <div className="left">
-                        <div className="img-box">
-                            <div className="img">
-                                <StaticImage style={{display:"contents"}}
-                                    alt="team member"
-                                    src={`./images/profile/16_10_IMG_3990.jpeg`}
-                                />
-                                {/* <img src={data.data.img} alt="" /> */}
-                            </div>
-                        </div>
-                    </div>
-                    <div className="right">
-                        <div className="name">
-                            <h2>孟子瑜</h2>
-                        </div>
-                        <div className="desc">
-                            <p>
-                                <span>
-                                    博士<br />自旋回波序列大脑快速定量T2成像重建算法及临床应用；融合生物先验和多模态磁共振脑影像的脑疾病模型；
-                                    <div className='student'>
-                                        <br /><span>邮箱地址：</span>mengzy0306@sjtu.edu.cn
-                                        <br />就读时间：2016.09~2023.09
-                                    </div>
-                                    <div className='student-mobile'>
-                                        <br />mengzy0306@sjtu.edu.cn
-                                        <br />2016.09~2023.09
                                     </div>
                                 </span>
                             </p>
